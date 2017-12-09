@@ -1646,4 +1646,16 @@ F 3 "" H 5950 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9650 750  9750 750 
+Wire Wire Line
+	5700 6700 5750 6700
+Wire Wire Line
+	5700 6800 5750 6800
+Text Label 5950 6800 0    60   ~ 0
+ACC_INT1
+Text Label 5950 6700 0    60   ~ 0
+ACC_INT2
+Text Label 6800 2350 0    60   ~ 0
+ACC_INT1
+Text Label 6800 2450 0    60   ~ 0
+ACC_INT2
 $EndSCHEMATC
