@@ -1158,7 +1158,7 @@ Text Label 6800 3650 0    60   ~ 0
 I2C_GPS_SDA
 Text Label 6800 3550 0    60   ~ 0
 I2C_GPS_SCL
-Text Notes 3200 1100 0    60   ~ 0
+Text Notes 550  800  0    60   ~ 0
 Design based on:\nhttps://www.sparkfun.com/products/12587\nand the Sodaq One
 Text Label 6800 2850 0    60   ~ 0
 UART_GPS_OUT
@@ -1654,8 +1654,57 @@ Text Label 5950 6800 0    60   ~ 0
 ACC_INT1
 Text Label 5950 6700 0    60   ~ 0
 ACC_INT2
-Text Label 6800 2350 0    60   ~ 0
+Text Label 6800 2750 0    60   ~ 0
 ACC_INT1
-Text Label 6800 2450 0    60   ~ 0
+Text Label 6800 3050 0    60   ~ 0
 ACC_INT2
+$Comp
+L Conn_01x06 J?
+U 1 1 5A2E73E8
+P 4750 850
+F 0 "J?" H 4750 1150 50  0000 C CNN
+F 1 "ICSP" H 4750 450 50  0000 C CNN
+F 2 "" H 4750 850 50  0001 C CNN
+F 3 "" H 4750 850 50  0001 C CNN
+	1    4750 850 
+	0    -1   -1   0   
+$EndComp
+Text Label 4550 1050 3    60   ~ 0
+MISO
+$Comp
+L +3V3 #PWR?
+U 1 1 5A2E7677
+P 4650 1050
+F 0 "#PWR?" H 4650 900 50  0001 C CNN
+F 1 "+3V3" H 4650 1190 50  0000 C CNN
+F 2 "" H 4650 1050 50  0001 C CNN
+F 3 "" H 4650 1050 50  0001 C CNN
+	1    4650 1050
+	-1   0    0    1   
+$EndComp
+Text Label 4750 1050 3    60   ~ 0
+SCK
+Text Label 4850 1050 3    60   ~ 0
+MOSI
+Text Label 4950 1050 3    60   ~ 0
+RESET
+$Comp
+L GND #PWR?
+U 1 1 5A2E7847
+P 5050 1050
+F 0 "#PWR?" H 5050 800 50  0001 C CNN
+F 1 "GND" H 5050 900 50  0000 C CNN
+F 2 "" H 5050 1050 50  0001 C CNN
+F 3 "" H 5050 1050 50  0001 C CNN
+	1    5050 1050
+	1    0    0    -1  
+$EndComp
+Text Label 4550 2350 3    60   ~ 0
+RESET
+Text Label 6800 2650 0    60   ~ 0
+MOSI
+Text Label 6800 2450 0    60   ~ 0
+SCK
+Text Label 6800 2550 0    60   ~ 0
+MISO
 $EndSCHEMATC
