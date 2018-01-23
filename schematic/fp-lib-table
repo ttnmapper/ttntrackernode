@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name gps_node_components)(type KiCad)(uri "$(KIPRJMOD)/libraries/gps_node_components.pretty")(options "")(descr ""))
+  (lib (name drawn_by_jpmeijers)(type KiCad)(uri "$(KIPRJMOD)/libraries/drawn_by_jpmeijers.pretty")(options "")(descr ""))
+)
