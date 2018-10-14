@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SWITCH_DPDT
+D double pole, double throw
+K switch
+$ENDCMP
+#
+$CMP SWITCH_DPDT_GROUNDED_BODY
+D double pole, double throw
+K switch
+$ENDCMP
+#
+#End Doc Library
