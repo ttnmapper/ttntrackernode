@@ -780,7 +780,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 4650 6650 4650
 Text HLabel 6800 4650 2    50   Input ~ 0
-charge_status
+CHARGE_STATUS
 Text HLabel 7600 3550 2    50   Input ~ 0
 UART_RN_OUT
 Text HLabel 7600 3650 2    50   Output ~ 0

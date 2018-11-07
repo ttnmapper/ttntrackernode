@@ -1104,4 +1104,6 @@ Wire Wire Line
 	7150 5750 7400 5750
 Text Notes 6750 4950 0    101  ~ 0
 Global power labels
+Text HLabel 2400 5850 0    50   Input ~ 0
+CHARGE_STATUS
 $EndSCHEMATC
