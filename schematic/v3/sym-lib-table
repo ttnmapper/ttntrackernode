@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name gps_node-rescue)(type Legacy)(uri ${KIPRJMOD}/gps_node-rescue.lib)(options "")(descr ""))
+  (lib (name drawn_by_jpmeijers)(type Legacy)(uri ${KIPRJMOD}/libraries/drawn_by_jpmeijers.lib)(options "")(descr ""))
+)

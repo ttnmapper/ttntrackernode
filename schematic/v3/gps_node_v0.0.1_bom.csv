@@ -1,0 +1,44 @@
+Reference, Quantity, Value, Footprint, Datasheet, Manufacturer,Component,Supplier,Supplier Link,Price,MOQ,,
+C1 ,1,10uF,Capacitors_SMD:C_1206,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=99M120814,1.13,1,,
+C14 C15 ,2,22pF,Capacitors_SMD:C_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M4035,0.39,10,,0.78
+C16 ,1,1uF,Capacitors_SMD:C_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M3856,0.58,1,,0.58
+C19 C3 C5 C6 ,4,4.7uF,Capacitors_SMD:C_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1581,0.12,10,,0.48
+C10 C11 C12 C13 C17 C18 C2 C20 C7 C8 C9 ,11,100nF,Capacitors_SMD:C_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1227,0.33,10,,3.63
+D1 D2 D3,3,D_Small,,,,,RS,https://za.rs-online.com/web/p/rectifier-schottky-diodes/7384822/,0.578,25,,1.734
+D4 D5,2,D_Small,,,,,RS,https://za.rs-online.com/web/p/rectifier-schottky-diodes/7033543/,1.848,20,,3.696
+D6 ,1,LED_Small_ALT,LEDs:LED_0805,,,,RS,https://za.rs-online.com/web/p/visible-leds/4860480/,1.194,25,,1.194
+D7 D8 ,2,LED,LEDs:LED_0805,,,,RS,https://za.rs-online.com/web/p/visible-leds/4860519/,1.244,25,,2.488
+F1 ,1,Polyfuse,,,,"Bourns 0.75A Surface Mount Resettable Fuse,",RS,https://za.rs-online.com/web/p/resettable-surface-mount-fuses/6478184/,2.87,10,,2.87
+IC1 ,1,MMA8452Q,,,,"NXP MMA8452QT, 3-Axis Accelerometer",RS,https://za.rs-online.com/web/p/accelerometer-ics/8016876/,28.31,5,,28.31
+IC2 ,1,MCP73831/2,TO_SOT_Packages_SMD:SOT-23-5,,Microchip Technology,Voltage Regulator,RS,https://za.rs-online.com/web/p/battery-charge-controller-ics/7386360/,45.33,5,,45.33
+J1 ,1,USB_OTG,,,,,RS,https://za.rs-online.com/web/p/micro-usb-connectors/8486764/,6.57,1,,6.57
+J11 ,1,TEST Vbatt,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,,,0
+J12 ,1,Test 3.3v,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,,,0
+J13 ,1,Test Gnd,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,,,0
+J14 ,1,UART RF,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm_SMD_Pin1Left,,,,,,,,,0
+J15 ,1,I2C GPS,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm_SMD_Pin1Left,,,,,,,,,0
+J16 ,1,UART GPS,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm_SMD_Pin1Left,,,,,,,,,0
+J17 ,1,GPIO_0,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left,,,,,,,,,0
+J18 ,1,GPIO_1,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left,,,,,,,,,0
+J2 ,1,AVR ICSP,,,,,,,,,,0
+J3 ,1,LIPO_BAT,,,,,,,,,,0
+J4 ,1,SOLAR,,,,,,,,,,0
+J5 ,1,FW_UPDATE,,,,,,,,,,0
+J6 ,1,SMA,Microwave:SMA,,,Radio Solutions Right Angle SMA Connector,RS,https://za.rs-online.com/web/p/sma-connectors/7839647/,,,,0
+J10 J7 J8 J9 ,4,Mounting Hole,Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=14M8964,2.46,1,,9.84
+R11 R13 R18 R19 ,4,0,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1410,0.04,1,,0.16
+R14 R20 R21 ,3,470,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1434,0.07,1,,0.21
+R15 ,1,2k,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1111,0.05,1,,0.05
+R16 R17 ,2,100k,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1122,0.1,1,,0.2
+R3 R4 ,2,220,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=65M2671-H,0.06,1,,0.12
+R5 R6 R8 R9 ,4,22,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M0649,0.11,1,,0.44
+R1 R10 R12 R2 R22 R23 R7 ,7,4.7k,Resistors_SMD:R_0805,,,,Mantech,http://www.mantech.co.za/ProductInfo.aspx?Item=35M1454,0.34,1,,2.38
+SW1 ,1,SW_SP3T,Buttons_Switches_THT:SW_DIP_x2_W7.62mm_Slide,,,,Mantech,https://za.rs-online.com/web/p/slide-switches/1546145/,9.36,1,,9.36
+SW2 ,1,RESET,,,,,RS,https://za.rs-online.com/web/p/tactile-switches/7856260/,5.54,1,,5.54
+U1 ,1,TLV71333PDBV,TO_SOT_Packages_SMD:SOT-23-5,,,,RS,https://za.rs-online.com/web/p/low-dropout-voltage-regulators/9143052/,6.024,25,,6.024
+U2 ,1,ublox-cam-m8q-0,,,,,Digikey,https://www.digikey.com/product-detail/en/u-blox-america-inc/CAM-M8Q-0/672-1013-1-ND/6150676,,1,,600
+U3 ,1,ATMEGA32U4-AU,,,,,RS,https://za.rs-online.com/web/p/microcontrollers/7153805/,117.3,1,,117.3
+U4 ,1,RN2483,,,,,RS,https://za.rs-online.com/web/p/telemetry-modules/1366378/,333.77,1,,333.77
+Y1 ,1,16MHz,,,,,RS,https://za.rs-online.com/web/p/crystal-units/8136166/,6.848,5,,6.848
+,,,,,,,,,,,,
+,,,,,,,,,,,,1189.904
