@@ -1,86 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C
+# drawn_by_jpmeijers:RN2483
 #
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# drawn_by_jpmeijers_RN2483
-#
-DEF drawn_by_jpmeijers_RN2483 U 0 40 Y Y 1 F N
+DEF drawn_by_jpmeijers:RN2483 U 0 40 Y Y 1 F N
 F0 "U" 200 -1450 60 H V C CNN
-F1 "drawn_by_jpmeijers_RN2483" -400 -1450 60 H V C CNN
+F1 "drawn_by_jpmeijers:RN2483" -400 -1450 60 H V C CNN
 F2 "" 100 -700 60 H V C CNN
 F3 "" 100 -700 60 H V C CNN
 DRAW
@@ -135,11 +60,11 @@ X GPIO13 9 900 -500 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# drawn_by_jpmeijers_ublox-cam-m8q-0
+# drawn_by_jpmeijers:ublox-cam-m8q-0
 #
-DEF drawn_by_jpmeijers_ublox-cam-m8q-0 U 0 40 Y Y 1 F N
+DEF drawn_by_jpmeijers:ublox-cam-m8q-0 U 0 40 Y Y 1 F N
 F0 "U" -500 900 60 H V C CNN
-F1 "drawn_by_jpmeijers_ublox-cam-m8q-0" -100 800 60 H V C CNN
+F1 "drawn_by_jpmeijers:ublox-cam-m8q-0" -100 800 60 H V C CNN
 F2 "" 0 1000 60 H I C CNN
 F3 "" 0 1000 60 H I C CNN
 DRAW
@@ -179,11 +104,41 @@ X VCC 9 750 300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_ATMEGA32U4-AU
+# gps_node-rescue:+3V3-power
 #
-DEF gps_node-rescue_ATMEGA32U4-AU U 0 40 Y Y 1 F N
+DEF gps_node-rescue:+3V3-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "gps_node-rescue:+3V3-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:+BATT-power
+#
+DEF gps_node-rescue:+BATT-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "gps_node-rescue:+BATT-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:ATMEGA32U4-AU
+#
+DEF gps_node-rescue:ATMEGA32U4-AU U 0 40 Y Y 1 F N
 F0 "U" -950 1700 50 H V C CNN
-F1 "gps_node-rescue_ATMEGA32U4-AU" 700 -1500 50 H V C CNN
+F1 "gps_node-rescue:ATMEGA32U4-AU" 700 -1500 50 H V C CNN
 F2 "TQFP44" 0 0 50 H I C CIN
 F3 "" 1100 1100 50 H I C CNN
 $FPLIST
@@ -238,11 +193,11 @@ X (SCLK/PCINT1)PB1 9 1100 1450 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_C
+# gps_node-rescue:C
 #
-DEF gps_node-rescue_C C 0 10 N Y 1 F N
+DEF gps_node-rescue:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "gps_node-rescue_C" 25 -100 50 H V L CNN
+F1 "gps_node-rescue:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -256,11 +211,29 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_C_Feedthrough
+# gps_node-rescue:C-Device
 #
-DEF gps_node-rescue_C_Feedthrough C 0 10 Y N 1 F N
+DEF gps_node-rescue:C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "gps_node-rescue:C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:C_Feedthrough
+#
+DEF gps_node-rescue:C_Feedthrough C 0 10 Y N 1 F N
 F0 "C" 0 300 50 H V C CNN
-F1 "gps_node-rescue_C_Feedthrough" 0 225 50 H V C CNN
+F1 "gps_node-rescue:C_Feedthrough" 0 225 50 H V C CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 DRAW
@@ -274,11 +247,11 @@ X 3 3 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_C_Small
+# gps_node-rescue:C_Small
 #
-DEF gps_node-rescue_C_Small C 0 10 N N 1 F N
+DEF gps_node-rescue:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "gps_node-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "gps_node-rescue:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -292,11 +265,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Conn_01x01
+# gps_node-rescue:Conn_01x01
 #
-DEF gps_node-rescue_Conn_01x01 J 0 40 Y N 1 F N
+DEF gps_node-rescue:Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "gps_node-rescue_Conn_01x01" 0 -100 50 H V C CNN
+F1 "gps_node-rescue:Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -314,11 +287,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Conn_01x02
+# gps_node-rescue:Conn_01x02
 #
-DEF gps_node-rescue_Conn_01x02 J 0 40 Y N 1 F N
+DEF gps_node-rescue:Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "gps_node-rescue_Conn_01x02" 0 -200 50 H V C CNN
+F1 "gps_node-rescue:Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -338,11 +311,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Conn_01x03
+# gps_node-rescue:Conn_01x03
 #
-DEF gps_node-rescue_Conn_01x03 J 0 40 Y N 1 F N
+DEF gps_node-rescue:Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "gps_node-rescue_Conn_01x03" 0 -200 50 H V C CNN
+F1 "gps_node-rescue:Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -364,11 +337,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Conn_01x06
+# gps_node-rescue:Conn_01x06
 #
-DEF gps_node-rescue_Conn_01x06 J 0 40 Y N 1 F N
+DEF gps_node-rescue:Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "gps_node-rescue_Conn_01x06" 0 -400 50 H V C CNN
+F1 "gps_node-rescue:Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -396,11 +369,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Conn_02x03_Odd_Even
+# gps_node-rescue:Conn_02x03_Odd_Even
 #
-DEF gps_node-rescue_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF gps_node-rescue:Conn_02x03_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "gps_node-rescue_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "gps_node-rescue:Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -428,11 +401,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Conn_Coaxial
+# gps_node-rescue:Conn_Coaxial
 #
-DEF gps_node-rescue_Conn_Coaxial J 0 40 Y N 1 F N
+DEF gps_node-rescue:Conn_Coaxial J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "gps_node-rescue_Conn_Coaxial" 115 0 50 V V C CNN
+F1 "gps_node-rescue:Conn_Coaxial" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -453,11 +426,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Crystal
+# gps_node-rescue:Crystal
 #
-DEF gps_node-rescue_Crystal Y 0 40 N N 1 F N
+DEF gps_node-rescue:Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "gps_node-rescue_Crystal" 0 -150 50 H V C CNN
+F1 "gps_node-rescue:Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -474,11 +447,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_D_Small
+# gps_node-rescue:D_Small
 #
-DEF gps_node-rescue_D_Small D 0 10 N N 1 F N
+DEF gps_node-rescue:D_Small D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "gps_node-rescue_D_Small" -150 -80 50 H V L CNN
+F1 "gps_node-rescue:D_Small" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -497,11 +470,24 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_LED
+# gps_node-rescue:GND-power
 #
-DEF gps_node-rescue_LED D 0 40 Y N 1 F N
+DEF gps_node-rescue:GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "gps_node-rescue:GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:LED
+#
+DEF gps_node-rescue:LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "gps_node-rescue_LED" 0 -100 50 H V C CNN
+F1 "gps_node-rescue:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -518,11 +504,34 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_MCP73831_2
+# gps_node-rescue:LED-Device
 #
-DEF gps_node-rescue_MCP73831_2 IC 0 40 Y Y 1 F N
+DEF gps_node-rescue:LED-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "gps_node-rescue:LED-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:MCP73831_2
+#
+DEF gps_node-rescue:MCP73831_2 IC 0 40 Y Y 1 F N
 F0 "IC" -150 300 60 H V C CNN
-F1 "gps_node-rescue_MCP73831_2" 0 -350 60 H V C CNN
+F1 "gps_node-rescue:MCP73831_2" 0 -350 60 H V C CNN
 F2 "" -150 -50 60 H I C CNN
 F3 "" -50 50 60 H I C CNN
 F4 "Microchip Technology" 0 -450 60 H I C CNN "Manufacturer"
@@ -539,11 +548,11 @@ X PROG 5 -400 -50 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_Polyfuse
+# gps_node-rescue:Polyfuse
 #
-DEF gps_node-rescue_Polyfuse F 0 0 N Y 1 F N
+DEF gps_node-rescue:Polyfuse F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "gps_node-rescue_Polyfuse" 100 0 50 V V C CNN
+F1 "gps_node-rescue:Polyfuse" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -559,11 +568,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_R
+# gps_node-rescue:R
 #
-DEF gps_node-rescue_R R 0 0 N Y 1 F N
+DEF gps_node-rescue:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "gps_node-rescue_R" 0 0 50 V V C CNN
+F1 "gps_node-rescue:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -577,11 +586,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_R_Small
+# gps_node-rescue:R-Device
 #
-DEF gps_node-rescue_R_Small R 0 10 N N 1 F N
+DEF gps_node-rescue:R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "gps_node-rescue:R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:R_Small
+#
+DEF gps_node-rescue:R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "gps_node-rescue_R_Small" 30 -40 50 H V L CNN
+F1 "gps_node-rescue:R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -594,11 +620,28 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_SW_SPDT
+# gps_node-rescue:SW_Push-Switch
 #
-DEF gps_node-rescue_SW_SPDT SW 0 0 Y N 1 F N
+DEF gps_node-rescue:SW_Push-Switch SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "gps_node-rescue:SW_Push-Switch" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# gps_node-rescue:SW_SPDT
+#
+DEF gps_node-rescue:SW_SPDT SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "gps_node-rescue_SW_SPDT" 0 -200 50 H V C CNN
+F1 "gps_node-rescue:SW_SPDT" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -612,11 +655,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_TLV71333PDBV
+# gps_node-rescue:TLV71333PDBV
 #
-DEF gps_node-rescue_TLV71333PDBV U 0 10 Y Y 1 F N
+DEF gps_node-rescue:TLV71333PDBV U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "gps_node-rescue_TLV71333PDBV" 0 225 50 H V L CNN
+F1 "gps_node-rescue:TLV71333PDBV" 0 225 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 325 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -632,11 +675,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# gps_node-rescue_USB_OTG
+# gps_node-rescue:USB_OTG
 #
-DEF gps_node-rescue_USB_OTG J 0 40 Y Y 1 F N
+DEF gps_node-rescue:USB_OTG J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "gps_node-rescue_USB_OTG" -200 350 50 H V L CNN
+F1 "gps_node-rescue:USB_OTG" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -667,55 +710,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+3V3
+# gps_node-rescue:VBUS-power
 #
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+DEF gps_node-rescue:VBUS-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+BATT
-#
-DEF power_+BATT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+BATT" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +BATT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VBUS
-#
-DEF power_VBUS #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VBUS" 0 150 50 H V C CNN
+F1 "gps_node-rescue:VBUS-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

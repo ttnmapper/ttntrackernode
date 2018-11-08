@@ -94,7 +94,7 @@ F 3 "" H 2200 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR048
+L gps_node-rescue:GND-power #PWR048
 U 1 1 5A5A6DAB
 P 2500 5600
 F 0 "#PWR048" H 2500 5350 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 2500 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR049
+L gps_node-rescue:+3V3-power #PWR049
 U 1 1 5A5A7033
 P 2500 4900
 F 0 "#PWR049" H 2500 4750 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 2500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR050
+L gps_node-rescue:+BATT-power #PWR050
 U 1 1 5A5A7C19
 P 2500 4650
 F 0 "#PWR050" H 2500 4500 50  0001 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 2200 5250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR068
+L gps_node-rescue:GND-power #PWR068
 U 1 1 5B770BFA
 P 3100 6700
 F 0 "#PWR068" H 3100 6450 50  0001 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 3100 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR069
+L gps_node-rescue:GND-power #PWR069
 U 1 1 5B770C98
 P 3100 7050
 F 0 "#PWR069" H 3100 6800 50  0001 C CNN
@@ -170,7 +170,7 @@ F 3 "" H 3100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR070
+L gps_node-rescue:GND-power #PWR070
 U 1 1 5B770D36
 P 2500 7050
 F 0 "#PWR070" H 2500 6800 50  0001 C CNN
@@ -181,7 +181,7 @@ F 3 "" H 2500 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR071
+L gps_node-rescue:GND-power #PWR071
 U 1 1 5B770DD4
 P 2500 6700
 F 0 "#PWR071" H 2500 6450 50  0001 C CNN
@@ -199,7 +199,7 @@ F1 "power.sch" 50
 F2 "CHARGE_STATUS" I R 3950 2350 50 
 $EndSheet
 $Comp
-L power:+3V3 #PWR?
+L gps_node-rescue:+3V3-power #PWR?
 U 1 1 5C01CDE9
 P 5500 4800
 AR Path="/5BFC4BE8/5C01CDE9" Ref="#PWR?"  Part="1" 
@@ -222,7 +222,7 @@ V_BUS
 Text GLabel 5100 5200 0    50   Input ~ 0
 GND
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C01CDF4
 P 5200 5300
 AR Path="/5BFC4BE8/5C01CDF4" Ref="#PWR?"  Part="1" 
@@ -241,7 +241,7 @@ Wire Wire Line
 Text Label 5150 5050 0    60   ~ 0
 V_BAK
 $Comp
-L power:VBUS #PWR?
+L gps_node-rescue:VBUS-power #PWR?
 U 1 1 5C01CDFD
 P 5350 4650
 AR Path="/5BFC4BE8/5C01CDFD" Ref="#PWR?"  Part="1" 
@@ -254,7 +254,7 @@ F 3 "" H 5350 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L gps_node-rescue:+BATT-power #PWR?
 U 1 1 5C01CE03
 P 5200 4500
 AR Path="/5BFC4BE8/5C01CE03" Ref="#PWR?"  Part="1" 

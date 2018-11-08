@@ -26,7 +26,7 @@ F 3 "" H 8050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L gps_node-rescue:GND-power #PWR0105
 U 1 1 5BFDCD06
 P 8050 2300
 F 0 "#PWR0105" H 8050 2050 50  0001 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 3250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L gps_node-rescue:GND-power #PWR0106
 U 1 1 5BFDCD1B
 P 3450 4250
 F 0 "#PWR0106" H 3450 4000 50  0001 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 3450 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L gps_node-rescue:GND-power #PWR0107
 U 1 1 5BFDCD21
 P 3250 4250
 F 0 "#PWR0107" H 3250 4000 50  0001 C CNN
@@ -104,7 +104,7 @@ F 3 "" V 2450 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VBUS #PWR0108
+L gps_node-rescue:VBUS-power #PWR0108
 U 1 1 5BFDCD3C
 P 2050 3550
 F 0 "#PWR0108" H 2050 3400 50  0001 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 2050 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L gps_node-rescue:GND-power #PWR0109
 U 1 1 5BFDCD42
 P 2650 4250
 F 0 "#PWR0109" H 2650 4000 50  0001 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 2650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0110
+L gps_node-rescue:+BATT-power #PWR0110
 U 1 1 5BFDCD48
 P 4350 3550
 F 0 "#PWR0110" H 4350 3400 50  0001 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 2550 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L gps_node-rescue:GND-power #PWR0111
 U 1 1 5BFDCD5C
 P 2900 2000
 F 0 "#PWR0111" H 2900 1750 50  0001 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 3100 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L gps_node-rescue:GND-power #PWR0112
 U 1 1 5BFDCD8E
 P 3100 6650
 F 0 "#PWR0112" H 3100 6400 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 7100 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L gps_node-rescue:GND-power #PWR0113
 U 1 1 5BFDCDA6
 P 6850 2350
 F 0 "#PWR0113" H 6850 2100 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 6850 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0114
+L gps_node-rescue:+3V3-power #PWR0114
 U 1 1 5BFDCDB2
 P 7550 5500
 F 0 "#PWR0114" H 7550 5350 50  0001 C CNN
@@ -270,7 +270,7 @@ F 3 "" H 7550 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0115
+L gps_node-rescue:+BATT-power #PWR0115
 U 1 1 5BFDCDB8
 P 6850 1750
 F 0 "#PWR0115" H 6850 1600 50  0001 C CNN
@@ -343,7 +343,7 @@ U 1 1 5BFDCDEE
 P 4300 1800
 F 0 "SW1" H 4300 1970 50  0000 C CNN
 F 1 "RS stock no. 448-0747" H 4300 1600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4300 1800 50  0001 C CNN
+F 2 "EG1224:EG1224_Switch" H 4300 1800 50  0001 C CNN
 F 3 "" H 4300 1800 50  0001 C CNN
 	1    4300 1800
 	1    0    0    -1  
@@ -381,7 +381,7 @@ Wire Wire Line
 Text Label 8800 3350 0    60   ~ 0
 V_BAK
 $Comp
-L power:+BATT #PWR0116
+L gps_node-rescue:+BATT-power #PWR0116
 U 1 1 5BFDCE09
 P 6850 3300
 F 0 "#PWR0116" H 6850 3150 50  0001 C CNN
@@ -399,7 +399,7 @@ Wire Wire Line
 	7700 3450 7700 3350
 Connection ~ 7700 3350
 $Comp
-L power:GND #PWR0117
+L gps_node-rescue:GND-power #PWR0117
 U 1 1 5BFDCE14
 P 8050 3800
 F 0 "#PWR0117" H 8050 3550 50  0001 C CNN
@@ -450,7 +450,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1800 3900 1700
 $Comp
-L power:+BATT #PWR0118
+L gps_node-rescue:+BATT-power #PWR0118
 U 1 1 5BFDCD68
 P 2900 1700
 F 0 "#PWR0118" H 2900 1550 50  0001 C CNN
@@ -461,7 +461,7 @@ F 3 "" H 2900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0119
+L gps_node-rescue:+BATT-power #PWR0119
 U 1 1 5BFDCDAC
 P 3900 1700
 F 0 "#PWR0119" H 3900 1550 50  0001 C CNN
@@ -1050,7 +1050,7 @@ V_BUS
 Text GLabel 7150 5900 0    50   Input ~ 0
 GND
 $Comp
-L power:GND #PWR0120
+L gps_node-rescue:GND-power #PWR0120
 U 1 1 5C002C99
 P 7250 6000
 F 0 "#PWR0120" H 7250 5750 50  0001 C CNN
@@ -1067,7 +1067,7 @@ Wire Wire Line
 Text Label 7200 5750 0    60   ~ 0
 V_BAK
 $Comp
-L power:VBUS #PWR0121
+L gps_node-rescue:VBUS-power #PWR0121
 U 1 1 5C004113
 P 7400 5350
 F 0 "#PWR0121" H 7400 5200 50  0001 C CNN
@@ -1078,7 +1078,7 @@ F 3 "" H 7400 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0122
+L gps_node-rescue:+BATT-power #PWR0122
 U 1 1 5C0044A3
 P 7250 5200
 F 0 "#PWR0122" H 7250 5050 50  0001 C CNN
@@ -1107,7 +1107,7 @@ Global power labels
 Text HLabel 2400 5850 0    50   Input ~ 0
 CHARGE_STATUS
 $Comp
-L power:+3V3 #PWR0176
+L gps_node-rescue:+3V3-power #PWR0176
 U 1 1 5BE3CF3E
 P 8700 1750
 F 0 "#PWR0176" H 8700 1600 50  0001 C CNN

@@ -28,7 +28,7 @@ F 3 "" H 3350 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0BE
 P 2800 3100
 AR Path="/5C37B0BE" Ref="#PWR?"  Part="1" 
@@ -41,7 +41,7 @@ F 3 "" H 2800 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0C4
 P 2950 3100
 AR Path="/5C37B0C4" Ref="#PWR?"  Part="1" 
@@ -54,7 +54,7 @@ F 3 "" H 2950 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0CA
 P 3250 3100
 AR Path="/5C37B0CA" Ref="#PWR?"  Part="1" 
@@ -67,7 +67,7 @@ F 3 "" H 3250 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0D0
 P 2350 3500
 AR Path="/5C37B0D0" Ref="#PWR?"  Part="1" 
@@ -80,7 +80,7 @@ F 3 "" H 2350 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0D6
 P 4150 3500
 AR Path="/5C37B0D6" Ref="#PWR?"  Part="1" 
@@ -93,7 +93,7 @@ F 3 "" H 4150 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0EE
 P 4250 5500
 AR Path="/5C37B0EE" Ref="#PWR?"  Part="1" 
@@ -106,7 +106,7 @@ F 3 "" H 4250 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0F4
 P 4150 4700
 AR Path="/5C37B0F4" Ref="#PWR?"  Part="1" 
@@ -119,7 +119,7 @@ F 3 "" H 4150 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B0FA
 P 4150 4400
 AR Path="/5C37B0FA" Ref="#PWR?"  Part="1" 
@@ -144,7 +144,7 @@ NoConn ~ 2350 5100
 NoConn ~ 2350 5200
 NoConn ~ 2350 5300
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B114
 P 2400 6500
 AR Path="/5C37B114" Ref="#PWR?"  Part="1" 
@@ -183,7 +183,7 @@ F 3 "" H 7650 5250 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B13C
 P 7850 3050
 AR Path="/5C37B13C" Ref="#PWR?"  Part="1" 
@@ -196,7 +196,7 @@ F 3 "" H 7850 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B142
 P 7450 3050
 AR Path="/5C37B142" Ref="#PWR?"  Part="1" 
@@ -217,7 +217,7 @@ NoConn ~ 8400 3950
 NoConn ~ 6900 3850
 NoConn ~ 7750 3050
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B175
 P 8600 5000
 AR Path="/5C37B175" Ref="#PWR?"  Part="1" 
@@ -230,7 +230,7 @@ F 3 "" H 8600 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B188
 P 3550 3100
 AR Path="/5C37B188" Ref="#PWR?"  Part="1" 
@@ -243,7 +243,7 @@ F 3 "" H 3550 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B18E
 P 3700 3100
 AR Path="/5C37B18E" Ref="#PWR?"  Part="1" 
@@ -281,7 +281,7 @@ F 3 "" V 1650 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L gps_node-rescue:+3V3-power #PWR?
 U 1 1 5C37B1E2
 P 1150 1500
 AR Path="/5C37B1E2" Ref="#PWR?"  Part="1" 
@@ -294,7 +294,7 @@ F 3 "" H 1150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B1E9
 P 1650 2100
 AR Path="/5C37B1E9" Ref="#PWR?"  Part="1" 
@@ -325,7 +325,7 @@ $EndComp
 Wire Wire Line
 	3400 2600 3850 2600
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C37B1FC
 P 4000 2800
 AR Path="/5C37B1FC" Ref="#PWR?"  Part="1" 
@@ -338,7 +338,7 @@ F 3 "" H 4000 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L gps_node-rescue:+3V3-power #PWR?
 U 1 1 5C3814CC
 P 5850 6800
 AR Path="/5BFC4BE8/5C3814CC" Ref="#PWR?"  Part="1" 
@@ -363,7 +363,7 @@ V_BUS
 Text GLabel 5450 7200 0    50   Input ~ 0
 GND
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C3814D7
 P 5550 7300
 AR Path="/5BFC4BE8/5C3814D7" Ref="#PWR?"  Part="1" 
@@ -384,7 +384,7 @@ Wire Wire Line
 Text Label 5500 7050 0    60   ~ 0
 V_BAK
 $Comp
-L power:VBUS #PWR?
+L gps_node-rescue:VBUS-power #PWR?
 U 1 1 5C3814E0
 P 5700 6650
 AR Path="/5BFC4BE8/5C3814E0" Ref="#PWR?"  Part="1" 
@@ -399,7 +399,7 @@ F 3 "" H 5700 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L gps_node-rescue:+BATT-power #PWR?
 U 1 1 5C3814E6
 P 5550 6500
 AR Path="/5BFC4BE8/5C3814E6" Ref="#PWR?"  Part="1" 
@@ -430,7 +430,7 @@ Wire Wire Line
 Text Notes 5050 6250 0    101  ~ 0
 Global power labels
 $Comp
-L Device:C C5
+L gps_node-rescue:C-Device C5
 U 1 1 5C386246
 P 2000 1850
 F 0 "C5" H 2050 1950 50  0000 L CNN
@@ -447,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1850 1650 2050
 $Comp
-L Device:C C12
+L gps_node-rescue:C-Device C12
 U 1 1 5C393EFC
 P 2450 1850
 F 0 "C12" H 2500 1950 50  0000 L CNN
@@ -458,7 +458,7 @@ F 3 "~" H 2450 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L gps_node-rescue:C-Device C23
 U 1 1 5C393F92
 P 2800 1850
 F 0 "C23" H 2850 1950 50  0000 L CNN
@@ -469,7 +469,7 @@ F 3 "~" H 2800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C24
+L gps_node-rescue:C-Device C24
 U 1 1 5C393FCC
 P 3150 1850
 F 0 "C24" H 3200 1950 50  0000 L CNN
@@ -534,7 +534,7 @@ F 3 "" V 6950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L gps_node-rescue:+3V3-power #PWR?
 U 1 1 5C3A7287
 P 6450 1550
 AR Path="/5C3A7287" Ref="#PWR?"  Part="1" 
@@ -547,7 +547,7 @@ F 3 "" H 6450 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C3A728D
 P 6950 2150
 AR Path="/5C3A728D" Ref="#PWR?"  Part="1" 
@@ -560,7 +560,7 @@ F 3 "" H 6950 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L gps_node-rescue:C-Device C3
 U 1 1 5C3A7293
 P 7300 1900
 F 0 "C3" H 7350 2000 50  0000 L CNN
@@ -577,7 +577,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 1900 6950 2100
 $Comp
-L Device:C C13
+L gps_node-rescue:C-Device C13
 U 1 1 5C3A729D
 P 7750 1900
 F 0 "C13" H 7800 2000 50  0000 L CNN
@@ -588,7 +588,7 @@ F 3 "~" H 7750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C25
+L gps_node-rescue:C-Device C25
 U 1 1 5C3A72A4
 P 8100 1900
 F 0 "C25" H 8150 2000 50  0000 L CNN
@@ -647,7 +647,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4450 6900 4450
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C3D3B3F
 P 6700 4150
 AR Path="/5C3D3B3F" Ref="#PWR?"  Part="1" 
@@ -696,7 +696,7 @@ Connection ~ 6700 4150
 Wire Wire Line
 	6700 4050 6900 4050
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C40A6F7
 P 6700 5000
 AR Path="/5C40A6F7" Ref="#PWR?"  Part="1" 
@@ -728,7 +728,7 @@ Connection ~ 6700 4950
 Wire Wire Line
 	6700 4950 6700 5000
 $Comp
-L Device:R R3
+L gps_node-rescue:R-Device R3
 U 1 1 5C41C2A5
 P 8650 3850
 F 0 "R3" V 8750 4000 50  0000 C CNN
@@ -739,7 +739,7 @@ F 3 "~" H 8650 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L gps_node-rescue:R-Device R2
 U 1 1 5C41C3FB
 P 8650 3750
 F 0 "R2" V 8750 3900 50  0000 C CNN
@@ -777,7 +777,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 5400 4150 5400
 $Comp
-L power:GND #PWR?
+L gps_node-rescue:GND-power #PWR?
 U 1 1 5C435A06
 P 2250 5500
 AR Path="/5C435A06" Ref="#PWR?"  Part="1" 
@@ -814,7 +814,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 3350 1200 3350
 $Comp
-L Device:R R10
+L gps_node-rescue:R-Device R10
 U 1 1 5C4434B7
 P 1500 3650
 F 0 "R10" H 1570 3696 50  0000 L CNN
