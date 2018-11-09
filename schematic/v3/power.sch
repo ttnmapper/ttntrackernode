@@ -160,70 +160,48 @@ F 3 "" H 2900 2000 50  0001 C CNN
 $EndComp
 Text Label 2850 3750 0    60   ~ 0
 CHARGE_STATUS
-Text Label 2400 5850 0    60   ~ 0
+Text Label 2750 6750 0    60   ~ 0
 CHARGE_STATUS
-$Comp
-L gps_node-rescue:LED D5
-U 1 1 5BFDCD72
-P 3100 5600
-F 0 "D5" H 3100 5700 50  0000 C CNN
-F 1 "LED" H 3100 5500 50  0000 C CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 3100 5600 50  0001 C CNN
-F 3 "" H 3100 5600 50  0001 C CNN
-	1    3100 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L gps_node-rescue:LED D6
-U 1 1 5BFDCD79
-P 3100 6100
-F 0 "D6" H 3100 6200 50  0000 C CNN
-F 1 "LED" H 3100 6000 50  0000 C CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 3100 6100 50  0001 C CNN
-F 3 "" H 3100 6100 50  0001 C CNN
-	1    3100 6100
-	0    -1   -1   0   
-$EndComp
 $Comp
 L gps_node-rescue:R R18
 U 1 1 5BFDCD80
-P 3100 6450
-F 0 "R18" V 3180 6450 50  0000 C CNN
-F 1 "470" V 3100 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3030 6450 50  0001 C CNN
-F 3 "" H 3100 6450 50  0001 C CNN
-	1    3100 6450
+P 2550 6800
+F 0 "R18" V 2630 6800 50  0000 C CNN
+F 1 "470" V 2550 6800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2480 6800 50  0001 C CNN
+F 3 "" H 2550 6800 50  0001 C CNN
+	1    2550 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L gps_node-rescue:R R17
 U 1 1 5BFDCD87
-P 3100 5250
-F 0 "R17" V 3180 5250 50  0000 C CNN
-F 1 "470" V 3100 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3030 5250 50  0001 C CNN
-F 3 "" H 3100 5250 50  0001 C CNN
-	1    3100 5250
+P 2750 5800
+F 0 "R17" V 2830 5800 50  0000 C CNN
+F 1 "470" V 2750 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2680 5800 50  0001 C CNN
+F 3 "" H 2750 5800 50  0001 C CNN
+	1    2750 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L gps_node-rescue:GND-power #PWR0112
 U 1 1 5BFDCD8E
-P 3100 6650
-F 0 "#PWR0112" H 3100 6400 50  0001 C CNN
-F 1 "GND" H 3100 6500 50  0000 C CNN
-F 2 "" H 3100 6650 50  0001 C CNN
-F 3 "" H 3100 6650 50  0001 C CNN
-	1    3100 6650
+P 2550 7000
+F 0 "#PWR0112" H 2550 6750 50  0001 C CNN
+F 1 "GND" H 2550 6850 50  0000 C CNN
+F 2 "" H 2550 7000 50  0001 C CNN
+F 3 "" H 2550 7000 50  0001 C CNN
+	1    2550 7000
 	1    0    0    -1  
 $EndComp
 Text Label 2800 3650 0    60   ~ 0
 V_Charger
-Text Label 2650 5050 0    60   ~ 0
+Text Label 2300 5550 0    60   ~ 0
 V_Charger
-Text Notes 3300 5600 0    60   ~ 0
+Text Notes 2000 6300 0    60   ~ 0
 Charging
-Text Notes 3250 6450 0    60   ~ 0
+Text Notes 3150 6650 0    60   ~ 0
 Standby
 $Comp
 L gps_node-rescue:C C2
@@ -303,20 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3750 3450 3750
 Wire Wire Line
-	2400 5850 3100 5850
-Wire Wire Line
-	3100 6600 3100 6650
-Wire Wire Line
-	3100 6300 3100 6250
-Wire Wire Line
-	3100 5750 3100 5850
-Connection ~ 3100 5850
-Wire Wire Line
-	3100 5450 3100 5400
-Wire Wire Line
-	2650 5050 3100 5050
-Wire Wire Line
-	3100 5050 3100 5100
+	2300 5550 2750 5550
 Wire Wire Line
 	7100 1950 7100 1850
 Connection ~ 7100 1850
@@ -429,8 +394,6 @@ Wire Wire Line
 	8450 3650 8450 3800
 Wire Wire Line
 	8450 3800 8050 3800
-Wire Wire Line
-	3100 5850 3100 5950
 Wire Wire Line
 	7100 1850 7750 1850
 Wire Wire Line
@@ -1104,7 +1067,7 @@ Wire Wire Line
 	7150 5750 7400 5750
 Text Notes 6750 4950 0    101  ~ 0
 Global power labels
-Text HLabel 2400 5850 0    50   Input ~ 0
+Text HLabel 1850 6000 0    50   Input ~ 0
 CHARGE_STATUS
 $Comp
 L gps_node-rescue:+3V3-power #PWR0176
@@ -1117,4 +1080,34 @@ F 3 "" H 8700 1750 50  0001 C CNN
 	1    8700 1750
 	1    0    0    -1  
 $EndComp
+Text Label 1850 6000 0    60   ~ 0
+CHARGE_STATUS
+Wire Wire Line
+	1850 6000 2550 6000
+Wire Wire Line
+	2750 5550 2750 5650
+Wire Wire Line
+	2550 6650 2550 6600
+Wire Wire Line
+	2550 7000 2550 6950
+Wire Wire Line
+	2750 6750 3350 6750
+$Comp
+L led_dual_ccaa:LED_Dual_CCAA D2
+U 1 1 5BE716E8
+P 2650 6350
+F 0 "D2" V 2579 6638 50  0000 L CNN
+F 1 "LED_Dual_CCAA" V 2670 6638 50  0000 L CNN
+F 2 "dual_led:LED_DUAL_1206" H 2680 6350 50  0001 C CNN
+F 3 "~" H 2680 6350 50  0001 C CNN
+F 4 "492-1245-1-ND" V 2750 7000 50  0000 C CNN "Digikey"
+	1    2650 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 6600 2750 6750
+Wire Wire Line
+	2750 5950 2750 6050
+Wire Wire Line
+	2550 6000 2550 6050
 $EndSCHEMATC
