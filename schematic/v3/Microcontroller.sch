@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -260,9 +260,7 @@ $EndComp
 NoConn ~ 1400 1650
 Text Label 6800 5050 0    60   ~ 0
 LED1
-NoConn ~ 6650 4850
 NoConn ~ 6650 4250
-NoConn ~ 6650 3150
 NoConn ~ 6650 2150
 $Comp
 L gps_node-rescue:Conn_01x03 J?
@@ -785,10 +783,10 @@ Text HLabel 7600 3550 2    50   Input ~ 0
 UART_RN_OUT
 Text HLabel 7600 3650 2    50   Output ~ 0
 UART_RN_IN
-Text HLabel 6800 3050 2    50   Output ~ 0
+Text HLabel 7600 3050 2    50   Output ~ 0
 RN_RESET
 Wire Wire Line
-	6800 3050 6650 3050
+	7600 3050 6650 3050
 Wire Wire Line
 	7600 3550 6650 3550
 Wire Wire Line
@@ -956,11 +954,11 @@ Wire Wire Line
 Text Label 6800 2250 0    60   ~ 0
 SCK
 Wire Wire Line
-	6650 2250 7250 2250
+	6650 2250 7600 2250
 Wire Wire Line
-	6650 2350 7250 2350
+	6650 2350 7600 2350
 Wire Wire Line
-	6650 2450 7250 2450
+	6650 2450 7600 2450
 Text Label 6800 2350 0    60   ~ 0
 MOSI
 Text Label 6800 2450 0    60   ~ 0
@@ -1114,15 +1112,7 @@ Wire Wire Line
 	6000 6700 6000 6650
 Text Notes 4350 6300 0    101  ~ 0
 Decoupling Capacitors
-NoConn ~ 6650 2850
-NoConn ~ 6650 3450
-NoConn ~ 6650 3750
-NoConn ~ 6650 3850
-NoConn ~ 6650 3950
-NoConn ~ 6650 4050
 NoConn ~ 6650 4350
-NoConn ~ 6650 4750
-NoConn ~ 6650 2550
 $Comp
 L gps_node-rescue:C-Device C11
 U 1 1 5BE580E5
@@ -1144,4 +1134,122 @@ Wire Wire Line
 Wire Wire Line
 	6300 7050 6300 7000
 Connection ~ 6000 7050
+Wire Wire Line
+	6750 3750 6650 3750
+Wire Wire Line
+	6650 3850 6750 3850
+Wire Wire Line
+	6750 3950 6650 3950
+Wire Wire Line
+	6650 4050 6750 4050
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5BE8DCB2
+P 6750 3750
+F 0 "TP3" V 6750 3950 50  0000 L CNN
+F 1 "TestPoint" V 6750 4150 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 3750 50  0001 C CNN
+F 3 "~" H 6950 3750 50  0001 C CNN
+	1    6750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5BE8DF17
+P 6750 3850
+F 0 "TP4" V 6750 4050 50  0000 L CNN
+F 1 "TestPoint" V 6750 4250 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 3850 50  0001 C CNN
+F 3 "~" H 6950 3850 50  0001 C CNN
+	1    6750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5BE8DF67
+P 6750 4750
+F 0 "TP7" V 6750 4950 50  0000 L CNN
+F 1 "TestPoint" V 6750 5150 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 4750 50  0001 C CNN
+F 3 "~" H 6950 4750 50  0001 C CNN
+	1    6750 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5BE8DFBF
+P 6750 3950
+F 0 "TP5" V 6750 4150 50  0000 L CNN
+F 1 "TestPoint" V 6750 4350 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 3950 50  0001 C CNN
+F 3 "~" H 6950 3950 50  0001 C CNN
+	1    6750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5BE8E00F
+P 6750 4050
+F 0 "TP6" V 6750 4250 50  0000 L CNN
+F 1 "TestPoint" V 6750 4450 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 4050 50  0001 C CNN
+F 3 "~" H 6950 4050 50  0001 C CNN
+	1    6750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5BE8E138
+P 6750 4850
+F 0 "TP8" V 6750 5050 50  0000 L CNN
+F 1 "TestPoint" V 6750 5250 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 4850 50  0001 C CNN
+F 3 "~" H 6950 4850 50  0001 C CNN
+	1    6750 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 4750 6650 4750
+Wire Wire Line
+	6650 4850 6750 4850
+Wire Wire Line
+	6650 3450 7600 3450
+Text HLabel 7600 3450 2    50   Input ~ 0
+ACCEL_INT
+Text HLabel 7600 2250 2    50   Output ~ 0
+SPI_CLK
+Text HLabel 7600 2350 2    50   Output ~ 0
+SPI_MOSI
+Text HLabel 7600 2450 2    50   Input ~ 0
+SPI_MISO
+Text HLabel 7600 3150 2    50   Output ~ 0
+ACCEL_CS
+Wire Wire Line
+	7600 3150 6650 3150
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5BECA5FF
+P 6750 2850
+F 0 "TP2" V 6750 3050 50  0000 L CNN
+F 1 "TestPoint" V 6750 3250 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 2850 50  0001 C CNN
+F 3 "~" H 6950 2850 50  0001 C CNN
+	1    6750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5BECA6BD
+P 6750 2550
+F 0 "TP1" V 6750 2750 50  0000 L CNN
+F 1 "TestPoint" V 6750 2950 50  0000 L CNN
+F 2 "test_pad:test_pad" H 6950 2550 50  0001 C CNN
+F 3 "~" H 6950 2550 50  0001 C CNN
+	1    6750 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2550 6650 2550
+Wire Wire Line
+	6650 2850 6750 2850
 $EndSCHEMATC
