@@ -142,7 +142,7 @@ U 1 1 5BFDCD4E
 P 2550 1800
 F 0 "J13" H 2550 1900 50  0000 C CNN
 F 1 "LIPO_BAT" H 2550 1600 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight" H 2550 1800 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0270_02x2.00mm_Straight" H 2550 1800 50  0001 C CNN
 F 3 "" H 2550 1800 50  0001 C CNN
 	1    2550 1800
 	-1   0    0    -1  
@@ -1093,7 +1093,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6750 3350 6750
 $Comp
-L led_dual_ccaa:LED_Dual_CCAA D2
+L gps_node-rescue:LED_Dual_CCAA-led_dual_ccaa D2
 U 1 1 5BE716E8
 P 2650 6350
 F 0 "D2" V 2579 6638 50  0000 L CNN

@@ -1143,7 +1143,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4050 6750 4050
 $Comp
-L Connector:TestPoint TP3
+L gps_node-rescue:TestPoint-Connector TP3
 U 1 1 5BE8DCB2
 P 6750 3750
 F 0 "TP3" V 6750 3950 50  0000 L CNN
@@ -1154,7 +1154,7 @@ F 3 "~" H 6950 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L gps_node-rescue:TestPoint-Connector TP4
 U 1 1 5BE8DF17
 P 6750 3850
 F 0 "TP4" V 6750 4050 50  0000 L CNN
@@ -1165,7 +1165,7 @@ F 3 "~" H 6950 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L gps_node-rescue:TestPoint-Connector TP7
 U 1 1 5BE8DF67
 P 6750 4750
 F 0 "TP7" V 6750 4950 50  0000 L CNN
@@ -1176,7 +1176,7 @@ F 3 "~" H 6950 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L gps_node-rescue:TestPoint-Connector TP5
 U 1 1 5BE8DFBF
 P 6750 3950
 F 0 "TP5" V 6750 4150 50  0000 L CNN
@@ -1187,7 +1187,7 @@ F 3 "~" H 6950 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L gps_node-rescue:TestPoint-Connector TP6
 U 1 1 5BE8E00F
 P 6750 4050
 F 0 "TP6" V 6750 4250 50  0000 L CNN
@@ -1198,7 +1198,7 @@ F 3 "~" H 6950 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L gps_node-rescue:TestPoint-Connector TP8
 U 1 1 5BE8E138
 P 6750 4850
 F 0 "TP8" V 6750 5050 50  0000 L CNN
@@ -1227,7 +1227,7 @@ ACCEL_CS
 Wire Wire Line
 	7600 3150 6650 3150
 $Comp
-L Connector:TestPoint TP2
+L gps_node-rescue:TestPoint-Connector TP2
 U 1 1 5BECA5FF
 P 6750 2850
 F 0 "TP2" V 6750 3050 50  0000 L CNN
@@ -1238,7 +1238,7 @@ F 3 "~" H 6950 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L gps_node-rescue:TestPoint-Connector TP1
 U 1 1 5BECA6BD
 P 6750 2550
 F 0 "TP1" V 6750 2750 50  0000 L CNN

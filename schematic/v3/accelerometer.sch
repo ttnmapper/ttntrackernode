@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM-LISxxx:LIS3DH U6
+L gps_node-rescue:LIS3DH-STM-LISxxx U6
 U 1 1 5BEAA49F
 P 6100 3550
 F 0 "U6" H 6500 3050 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 6300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C26
+L gps_node-rescue:C-Device C26
 U 1 1 5BEAA5D1
 P 3800 3550
 F 0 "C26" H 3915 3596 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "~" H 3800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C27
+L gps_node-rescue:C-Device C27
 U 1 1 5BEAA6D7
 P 4200 3550
 F 0 "C27" H 4315 3596 50  0000 L CNN
