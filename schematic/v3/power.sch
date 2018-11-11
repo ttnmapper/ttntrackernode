@@ -82,17 +82,6 @@ F 3 "" H 3250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gps_node-rescue:C_Small C18
-U 1 1 5BFDCD27
-P 2650 4000
-F 0 "C18" H 2660 4070 50  0000 L CNN
-F 1 "10uF" H 2660 3920 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2650 4000 50  0001 C CNN
-F 3 "" H 2650 4000 50  0001 C CNN
-	1    2650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L gps_node-rescue:D_Small D1
 U 1 1 5BFDCD2E
 P 2450 3650
@@ -273,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3650 3450 3650
 Wire Wire Line
-	2650 4250 2650 4100
+	2650 4250 2650 4200
 Wire Wire Line
 	4250 3800 4350 3800
 Wire Wire Line
@@ -1110,4 +1099,15 @@ Wire Wire Line
 	2750 5950 2750 6050
 Wire Wire Line
 	2550 6000 2550 6050
+$Comp
+L Device:C C18
+U 1 1 5BE8AB3B
+P 2650 4050
+F 0 "C18" H 2765 4096 50  0000 L CNN
+F 1 "10uF" H 2765 4005 50  0000 L CNN
+F 2 "" H 2688 3900 50  0001 C CNN
+F 3 "~" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
