@@ -236,19 +236,6 @@ F 3 "" H 7550 5500 50  0001 C CNN
 	1    7550 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L gps_node-rescue:+BATT-power #PWR0115
-U 1 1 5BFDCDB8
-P 6850 1750
-F 0 "#PWR0115" H 6850 1600 50  0001 C CNN
-F 1 "+BATT" H 6850 1890 50  0000 C CNN
-F 2 "" H 6850 1750 50  0001 C CNN
-F 3 "" H 6850 1750 50  0001 C CNN
-	1    6850 1750
-	1    0    0    -1  
-$EndComp
-Text Label 7750 1950 2    60   ~ 0
-REG_ENABLE
 Wire Wire Line
 	8050 2250 8050 2300
 Wire Wire Line
@@ -275,14 +262,10 @@ Wire Wire Line
 	7100 1950 7100 1850
 Connection ~ 7100 1850
 Wire Wire Line
-	6850 1750 6850 1850
-Connection ~ 6850 1850
-Wire Wire Line
 	6850 2250 6850 2300
 Wire Wire Line
 	7100 2300 7100 2250
 Connection ~ 6850 2300
-Connection ~ 7100 2300
 Wire Wire Line
 	8350 1850 8700 1850
 Wire Wire Line
@@ -302,23 +285,8 @@ F 3 "" H 4300 1800 50  0001 C CNN
 	1    4300 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L gps_node-rescue:R_Small R1
-U 1 1 5BFDCDF5
-P 7650 2150
-F 0 "R1" H 7700 2200 50  0000 L CNN
-F 1 "10k" H 7700 2100 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 7650 2150 50  0001 C CNN
-F 3 "" H 7650 2150 50  0001 C CNN
-	1    7650 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 2050 7650 1950
 Wire Wire Line
 	7650 1950 7750 1950
-Wire Wire Line
-	7650 2300 7650 2250
 $Comp
 L gps_node-rescue:TLV71333PDBV U3
 U 1 1 5BFDCE00
@@ -334,19 +302,6 @@ Wire Wire Line
 	8350 3350 8450 3350
 Text Label 8800 3350 0    60   ~ 0
 V_BAK
-$Comp
-L gps_node-rescue:+BATT-power #PWR0116
-U 1 1 5BFDCE09
-P 6850 3300
-F 0 "#PWR0116" H 6850 3150 50  0001 C CNN
-F 1 "+BATT" H 6850 3440 50  0000 C CNN
-F 2 "" H 6850 3300 50  0001 C CNN
-F 3 "" H 6850 3300 50  0001 C CNN
-	1    6850 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 3300 6850 3350
 Wire Wire Line
 	7750 3450 7700 3450
 Wire Wire Line
@@ -384,23 +339,15 @@ Wire Wire Line
 Wire Wire Line
 	8450 3800 8050 3800
 Wire Wire Line
-	7100 1850 7750 1850
+	7100 1850 7650 1850
 Wire Wire Line
 	6850 1850 6850 1950
 Wire Wire Line
 	6850 2300 6850 2350
 Wire Wire Line
-	7100 2300 7650 2300
-Wire Wire Line
 	7700 3350 7750 3350
 Connection ~ 8050 3800
-Text Label 4500 1900 0    60   ~ 0
-REG_ENABLE
 NoConn ~ 4500 1700
-Wire Wire Line
-	4100 1800 3900 1800
-Wire Wire Line
-	3900 1800 3900 1700
 $Comp
 L gps_node-rescue:+BATT-power #PWR0118
 U 1 1 5BFDCD68
@@ -415,16 +362,14 @@ $EndComp
 $Comp
 L gps_node-rescue:+BATT-power #PWR0119
 U 1 1 5BFDCDAC
-P 3900 1700
-F 0 "#PWR0119" H 3900 1550 50  0001 C CNN
-F 1 "+BATT" H 3900 1840 50  0000 C CNN
-F 2 "" H 3900 1700 50  0001 C CNN
-F 3 "" H 3900 1700 50  0001 C CNN
-	1    3900 1700
+P 3600 1200
+F 0 "#PWR0119" H 3600 1050 50  0001 C CNN
+F 1 "+BATT" H 3600 1340 50  0000 C CNN
+F 2 "" H 3600 1200 50  0001 C CNN
+F 3 "" H 3600 1200 50  0001 C CNN
+	1    3600 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 3350 7400 3350
 $Comp
 L gps_node-rescue:C C22
 U 1 1 5BFE69A3
@@ -1110,4 +1055,71 @@ F 3 "~" H 2650 4050 50  0001 C CNN
 	1    2650 4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L gps_node-rescue:D_Small D?
+U 1 1 5BF962B1
+P 3900 1250
+F 0 "D?" H 3850 1330 50  0000 L CNN
+F 1 "BAS K73" H 3750 1170 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOT-23_ANK" V 3900 1250 50  0001 C CNN
+F 3 "" V 3900 1250 50  0001 C CNN
+	1    3900 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:D_Small D?
+U 1 1 5BF96380
+P 3900 1500
+F 0 "D?" H 3850 1580 50  0000 L CNN
+F 1 "BAS K73" H 3750 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOT-23_ANK" V 3900 1500 50  0001 C CNN
+F 3 "" V 3900 1500 50  0001 C CNN
+	1    3900 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 1200 3600 1250
+Wire Wire Line
+	3600 1250 3800 1250
+Wire Wire Line
+	4000 1250 4100 1250
+Wire Wire Line
+	4100 1250 4100 1500
+Wire Wire Line
+	4000 1500 4100 1500
+Connection ~ 4100 1500
+Wire Wire Line
+	4100 1500 4100 1800
+$Comp
+L gps_node-rescue:VBUS-power #PWR?
+U 1 1 5BF9F4F8
+P 3600 1450
+F 0 "#PWR?" H 3600 1300 50  0001 C CNN
+F 1 "VBUS" H 3600 1600 50  0000 C CNN
+F 2 "" H 3600 1450 50  0001 C CNN
+F 3 "" H 3600 1450 50  0001 C CNN
+	1    3600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1450 3600 1500
+Wire Wire Line
+	3600 1500 3800 1500
+Wire Wire Line
+	7650 1950 7650 1850
+Connection ~ 7650 1850
+Wire Wire Line
+	7650 1850 7750 1850
+Wire Wire Line
+	4100 1800 4100 3350
+Connection ~ 4100 1800
+Wire Wire Line
+	4100 3350 7400 3350
+Wire Wire Line
+	6850 1850 4650 1850
+Wire Wire Line
+	4650 1850 4650 1900
+Wire Wire Line
+	4650 1900 4500 1900
+Connection ~ 6850 1850
 $EndSCHEMATC
