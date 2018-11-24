@@ -138,61 +138,37 @@ Global power labels
 $Comp
 L gps_node-rescue:+3V3-power #PWR?
 U 1 1 5BEAA84B
-P 3800 3300
+P 2850 3250
 AR Path="/5BFC4BE8/5BEAA84B" Ref="#PWR?"  Part="1" 
 AR Path="/5BEAA84B" Ref="#PWR?"  Part="1" 
 AR Path="/5BEAA40F/5BEAA84B" Ref="#PWR0181"  Part="1" 
-F 0 "#PWR0181" H 3800 3150 50  0001 C CNN
-F 1 "+3V3" H 3850 3450 50  0000 C CNN
-F 2 "" H 3800 3300 50  0001 C CNN
-F 3 "" H 3800 3300 50  0001 C CNN
-	1    3800 3300
+F 0 "#PWR0181" H 2850 3100 50  0001 C CNN
+F 1 "+3V3" H 2900 3400 50  0000 C CNN
+F 2 "" H 2850 3250 50  0001 C CNN
+F 3 "" H 2850 3250 50  0001 C CNN
+	1    2850 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 3300 3800 3350
 Wire Wire Line
 	3800 3350 4200 3350
 Wire Wire Line
 	4200 3350 4200 3400
-Connection ~ 3800 3350
 Wire Wire Line
 	3800 3350 3800 3400
 Wire Wire Line
 	4200 3700 4200 3750
-Wire Wire Line
-	4200 3750 3800 3750
-Wire Wire Line
-	3800 3750 3800 3700
 $Comp
 L gps_node-rescue:GND-power #PWR?
 U 1 1 5BEAAC62
-P 3800 3800
+P 3900 3800
 AR Path="/5BFC4BE8/5BEAAC62" Ref="#PWR?"  Part="1" 
 AR Path="/5BEAAC62" Ref="#PWR?"  Part="1" 
 AR Path="/5BEAA40F/5BEAAC62" Ref="#PWR0182"  Part="1" 
-F 0 "#PWR0182" H 3800 3550 50  0001 C CNN
-F 1 "GND" H 3800 3650 50  0000 C CNN
-F 2 "" H 3800 3800 50  0001 C CNN
-F 3 "" H 3800 3800 50  0001 C CNN
-	1    3800 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 3750 3800 3800
-Connection ~ 3800 3750
-$Comp
-L gps_node-rescue:+3V3-power #PWR?
-U 1 1 5BEAAFA2
-P 6050 2700
-AR Path="/5BFC4BE8/5BEAAFA2" Ref="#PWR?"  Part="1" 
-AR Path="/5BEAAFA2" Ref="#PWR?"  Part="1" 
-AR Path="/5BEAA40F/5BEAAFA2" Ref="#PWR0183"  Part="1" 
-F 0 "#PWR0183" H 6050 2550 50  0001 C CNN
-F 1 "+3V3" H 6100 2850 50  0000 C CNN
-F 2 "" H 6050 2700 50  0001 C CNN
-F 3 "" H 6050 2700 50  0001 C CNN
-	1    6050 2700
+F 0 "#PWR0182" H 3900 3550 50  0001 C CNN
+F 1 "GND" H 3900 3650 50  0000 C CNN
+F 2 "" H 3900 3800 50  0001 C CNN
+F 3 "" H 3900 3800 50  0001 C CNN
+	1    3900 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -201,9 +177,6 @@ Wire Wire Line
 	6050 2750 6150 2750
 Wire Wire Line
 	6150 2750 6150 2800
-Connection ~ 6050 2750
-Wire Wire Line
-	6050 2750 6050 2700
 $Comp
 L gps_node-rescue:GND-power #PWR?
 U 1 1 5BEAB431
@@ -256,4 +229,40 @@ Text HLabel 6800 3200 2    50   Output ~ 0
 ACCEL_INT
 Wire Wire Line
 	6800 3200 6750 3200
+$Comp
+L Device:C_Feedthrough C?
+U 1 1 5BFC9FEB
+P 3400 3450
+F 0 "C?" H 3400 3755 50  0000 C CNN
+F 1 "C_Feedthrough" H 3400 3664 50  0000 C CNN
+F 2 "" V 3400 3450 50  0001 C CNN
+F 3 "~" V 3400 3450 50  0001 C CNN
+	1    3400 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3350 3800 3350
+Connection ~ 3800 3350
+Wire Wire Line
+	2850 3250 2850 3350
+Wire Wire Line
+	2850 3350 3200 3350
+Wire Wire Line
+	3400 3550 3400 3750
+Wire Wire Line
+	3400 3750 3800 3750
+Wire Wire Line
+	3800 3700 3800 3750
+Connection ~ 3800 3750
+Wire Wire Line
+	3800 3750 3900 3750
+Wire Wire Line
+	3900 3800 3900 3750
+Connection ~ 3900 3750
+Wire Wire Line
+	3900 3750 4200 3750
+Text Label 4000 3350 0    50   ~ 0
+Vcc_accel
+Text Label 6150 2750 0    50   ~ 0
+Vcc_accel
 $EndSCHEMATC

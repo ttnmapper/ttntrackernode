@@ -19,6 +19,25 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_C_Feedthrough
+#
+DEF Device_C_Feedthrough C 0 10 Y N 1 F N
+F0 "C" 0 300 50 H V C CNN
+F1 "Device_C_Feedthrough" 0 225 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+ALIAS EMI_Filter_C
+DRAW
+S -65 60 60 80 0 1 0 F
+S 60 120 -65 140 0 1 0 F
+P 2 0 1 0 -100 100 100 100 N
+P 2 0 1 0 0 0 0 70 N
+X 1 1 -200 100 100 R 50 50 1 1 P
+X 2 2 0 -100 100 U 50 50 1 1 P
+X 3 3 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
