@@ -22,7 +22,7 @@ U 1 1 5A5A544B
 P 2300 6700
 F 0 "J1" H 2300 6800 50  0000 C CNN
 F 1 "Mounting Hole" H 2300 6600 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 2300 6700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2300 6700 50  0001 C CNN
 F 3 "" H 2300 6700 50  0001 C CNN
 	1    2300 6700
 	-1   0    0    1   
@@ -33,7 +33,7 @@ U 1 1 5A5A6046
 P 2300 7050
 F 0 "J2" H 2300 7150 50  0000 C CNN
 F 1 "Mounting Hole" H 2300 6950 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 2300 7050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2300 7050 50  0001 C CNN
 F 3 "" H 2300 7050 50  0001 C CNN
 	1    2300 7050
 	-1   0    0    1   
@@ -44,7 +44,7 @@ U 1 1 5A5A6127
 P 2900 6700
 F 0 "J3" H 2900 6800 50  0000 C CNN
 F 1 "Mounting Hole" H 2900 6600 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 2900 6700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2900 6700 50  0001 C CNN
 F 3 "" H 2900 6700 50  0001 C CNN
 	1    2900 6700
 	-1   0    0    1   
@@ -55,7 +55,7 @@ U 1 1 5A5A6239
 P 2900 7050
 F 0 "J4" H 2900 7150 50  0000 C CNN
 F 1 "Mounting Hole" H 2900 6950 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 2900 7050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2900 7050 50  0001 C CNN
 F 3 "" H 2900 7050 50  0001 C CNN
 	1    2900 7050
 	-1   0    0    1   
@@ -66,7 +66,7 @@ U 1 1 5A5A66FA
 P 2200 4650
 F 0 "J5" H 2200 4750 50  0000 C CNN
 F 1 "TEST Vbatt" H 2200 4550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 2200 4650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 4650 50  0001 C CNN
 F 3 "" H 2200 4650 50  0001 C CNN
 	1    2200 4650
 	-1   0    0    1   
@@ -77,7 +77,7 @@ U 1 1 5A5A6A98
 P 2200 4950
 F 0 "J7" H 2200 5050 50  0000 C CNN
 F 1 "Test 3.3v" H 2200 4850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 2200 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 4950 50  0001 C CNN
 F 3 "" H 2200 4950 50  0001 C CNN
 	1    2200 4950
 	-1   0    0    1   
@@ -88,7 +88,7 @@ U 1 1 5A5A6B96
 P 2200 5550
 F 0 "J8" H 2200 5650 50  0000 C CNN
 F 1 "Test Gnd" H 2200 5450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 2200 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 5550 50  0001 C CNN
 F 3 "" H 2200 5550 50  0001 C CNN
 	1    2200 5550
 	-1   0    0    1   
@@ -142,7 +142,7 @@ U 1 1 5B5D2F80
 P 2200 5250
 F 0 "J9" H 2200 5350 50  0000 C CNN
 F 1 "Test V_bak" H 2200 5150 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 2200 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 5250 50  0001 C CNN
 F 3 "" H 2200 5250 50  0001 C CNN
 	1    2200 5250
 	-1   0    0    1   
