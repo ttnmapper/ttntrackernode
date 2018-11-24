@@ -87,7 +87,7 @@ rn2xx3 myLora(Serial1);
 
 unsigned long last_update = 0;
 String toLog;
-uint8_t txBuffer[9];
+uint8_t txBuffer[11];
 uint32_t LatitudeBinary, LongitudeBinary;
 uint16_t altitudeGps;
 uint8_t hdopGps;
@@ -225,6 +225,10 @@ void build_packet()
 
   hdopGps = gps.hdop.value()/10;
   txBuffer[8] = hdopGps & 0xFF;
+
+  //course and speed
+  txBuffer[9] = (int(gps.course.deg()) / 10) & 0xFF;
+  txBuffer[10] = int(gps.speed.kmph()) & 0xFF;
 
   toLog = "";
   for(size_t i = 0; i<sizeof(txBuffer); i++)
