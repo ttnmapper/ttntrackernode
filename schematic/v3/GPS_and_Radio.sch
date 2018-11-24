@@ -1,0 +1,886 @@
+EESchema Schematic File Version 4
+LIBS:gps_node-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L drawn_by_jpmeijers:RN2483 U?
+U 1 1 5C37B0B7
+P 3250 4100
+AR Path="/5C37B0B7" Ref="U?"  Part="1" 
+AR Path="/5C378859/5C37B0B7" Ref="U5"  Part="1" 
+F 0 "U5" H 3450 2650 60  0000 C CNN
+F 1 "RN2483" H 2850 2650 60  0000 C CNN
+F 2 "drawn_by_jpmeijers:RN2483" H 3350 3400 60  0001 C CNN
+F 3 "" H 3350 3400 60  0000 C CNN
+	1    3250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0BE
+P 2800 3100
+AR Path="/5C37B0BE" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0BE" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 2800 2850 50  0001 C CNN
+F 1 "GND" H 2800 2950 50  0000 C CNN
+F 2 "" H 2800 3100 50  0001 C CNN
+F 3 "" H 2800 3100 50  0001 C CNN
+	1    2800 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0C4
+P 2950 3100
+AR Path="/5C37B0C4" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0C4" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 2950 2850 50  0001 C CNN
+F 1 "GND" H 2950 2950 50  0000 C CNN
+F 2 "" H 2950 3100 50  0001 C CNN
+F 3 "" H 2950 3100 50  0001 C CNN
+	1    2950 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0CA
+P 3250 3100
+AR Path="/5C37B0CA" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0CA" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 3250 2850 50  0001 C CNN
+F 1 "GND" H 3250 2950 50  0000 C CNN
+F 2 "" H 3250 3100 50  0001 C CNN
+F 3 "" H 3250 3100 50  0001 C CNN
+	1    3250 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0D0
+P 2350 3500
+AR Path="/5C37B0D0" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0D0" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 2350 3250 50  0001 C CNN
+F 1 "GND" V 2350 3300 50  0000 C CNN
+F 2 "" H 2350 3500 50  0001 C CNN
+F 3 "" H 2350 3500 50  0001 C CNN
+	1    2350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0D6
+P 4150 3500
+AR Path="/5C37B0D6" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0D6" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 4150 3250 50  0001 C CNN
+F 1 "GND" H 4150 3350 50  0000 C CNN
+F 2 "" H 4150 3500 50  0001 C CNN
+F 3 "" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0EE
+P 4250 5500
+AR Path="/5C37B0EE" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0EE" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 4250 5250 50  0001 C CNN
+F 1 "GND" V 4250 5300 50  0000 C CNN
+F 2 "" H 4250 5500 50  0001 C CNN
+F 3 "" H 4250 5500 50  0001 C CNN
+	1    4250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0F4
+P 4150 4700
+AR Path="/5C37B0F4" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0F4" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 4150 4450 50  0001 C CNN
+F 1 "GND" V 4150 4500 50  0000 C CNN
+F 2 "" H 4150 4700 50  0001 C CNN
+F 3 "" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B0FA
+P 4150 4400
+AR Path="/5C37B0FA" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B0FA" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 4150 4150 50  0001 C CNN
+F 1 "GND" V 4150 4200 50  0000 C CNN
+F 2 "" H 4150 4400 50  0001 C CNN
+F 3 "" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2350 3600
+NoConn ~ 2350 4700
+NoConn ~ 2350 4600
+NoConn ~ 2350 4500
+NoConn ~ 2350 4400
+NoConn ~ 2350 4300
+NoConn ~ 2350 4200
+NoConn ~ 2350 4900
+NoConn ~ 2350 5000
+NoConn ~ 2350 5100
+NoConn ~ 2350 5200
+NoConn ~ 2350 5300
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B114
+P 2400 6500
+AR Path="/5C37B114" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B114" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 2400 6250 50  0001 C CNN
+F 1 "GND" V 2400 6300 50  0000 C CNN
+F 2 "" H 2400 6500 50  0001 C CNN
+F 3 "" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 4200
+NoConn ~ 4150 4100
+NoConn ~ 4150 4000
+NoConn ~ 4150 3900
+NoConn ~ 4150 3800
+NoConn ~ 4150 3700
+NoConn ~ 4150 3600
+NoConn ~ 4150 4500
+NoConn ~ 4150 4600
+NoConn ~ 4150 5000
+NoConn ~ 4150 5100
+NoConn ~ 4150 5200
+NoConn ~ 4150 5300
+$Comp
+L drawn_by_jpmeijers:ublox-cam-m8q-0 U?
+U 1 1 5C37B129
+P 7650 4250
+AR Path="/5C37B129" Ref="U?"  Part="1" 
+AR Path="/5C378859/5C37B129" Ref="U2"  Part="1" 
+F 0 "U2" H 7150 5150 60  0000 C CNN
+F 1 "ublox-cam-m8q-0" H 7550 5050 60  0000 C CNN
+F 2 "drawn_by_jpmeijers:ublox-cam-m8q-0" H 7650 5250 60  0001 C CNN
+F 3 "" H 7650 5250 60  0001 C CNN
+	1    7650 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B13C
+P 7850 3050
+AR Path="/5C37B13C" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B13C" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 7850 2800 50  0001 C CNN
+F 1 "GND" H 7850 2900 50  0000 C CNN
+F 2 "" H 7850 3050 50  0001 C CNN
+F 3 "" H 7850 3050 50  0001 C CNN
+	1    7850 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B142
+P 7450 3050
+AR Path="/5C37B142" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B142" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 7450 2800 50  0001 C CNN
+F 1 "GND" H 7450 2900 50  0000 C CNN
+F 2 "" H 7450 3050 50  0001 C CNN
+F 3 "" H 7450 3050 50  0001 C CNN
+	1    7450 3050
+	-1   0    0    1   
+$EndComp
+NoConn ~ 7550 3050
+NoConn ~ 8400 4350
+NoConn ~ 8400 4050
+NoConn ~ 7650 3050
+NoConn ~ 6900 4350
+NoConn ~ 8400 3950
+NoConn ~ 6900 3850
+NoConn ~ 7750 3050
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B175
+P 8600 5000
+AR Path="/5C37B175" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B175" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 8600 4750 50  0001 C CNN
+F 1 "GND" H 8600 4850 50  0000 C CNN
+F 2 "" H 8600 5000 50  0001 C CNN
+F 3 "" H 8600 5000 50  0001 C CNN
+	1    8600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B188
+P 3550 3100
+AR Path="/5C37B188" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B188" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 3550 2850 50  0001 C CNN
+F 1 "GND" H 3550 2950 50  0000 C CNN
+F 2 "" H 3550 3100 50  0001 C CNN
+F 3 "" H 3550 3100 50  0001 C CNN
+	1    3550 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B18E
+P 3700 3100
+AR Path="/5C37B18E" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B18E" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 3700 2850 50  0001 C CNN
+F 1 "GND" H 3700 2950 50  0000 C CNN
+F 2 "" H 3700 3100 50  0001 C CNN
+F 3 "" H 3700 3100 50  0001 C CNN
+	1    3700 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 4650 8450 4650
+Wire Wire Line
+	8450 4750 8400 4750
+Wire Wire Line
+	4150 4900 4300 4900
+Wire Wire Line
+	4300 4800 4150 4800
+Wire Wire Line
+	3400 2600 3400 3100
+Wire Wire Line
+	8450 4650 8450 4750
+$Comp
+L gps_node-rescue:C_Feedthrough C?
+U 1 1 5C37B1DB
+P 1650 1750
+AR Path="/5C37B1DB" Ref="C?"  Part="1" 
+AR Path="/5C378859/5C37B1DB" Ref="C19"  Part="1" 
+F 0 "C19" H 1650 2050 50  0000 C CNN
+F 1 "NFM21HC105R1C3D" H 1650 1975 50  0000 C CNN
+F 2 "gps_node_components:C_FEEDTHROUGH_0805" V 1650 1750 50  0001 C CNN
+F 3 "" V 1650 1750 50  0001 C CNN
+	1    1650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:+3V3-power #PWR?
+U 1 1 5C37B1E2
+P 1150 1500
+AR Path="/5C37B1E2" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B1E2" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 1150 1350 50  0001 C CNN
+F 1 "+3V3" V 1150 1700 50  0000 C CNN
+F 2 "" H 1150 1500 50  0001 C CNN
+F 3 "" H 1150 1500 50  0001 C CNN
+	1    1150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B1E9
+P 1650 2100
+AR Path="/5C37B1E9" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B1E9" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 1650 1850 50  0001 C CNN
+F 1 "GND" H 1650 1950 50  0000 C CNN
+F 2 "" H 1650 2100 50  0001 C CNN
+F 3 "" H 1650 2100 50  0001 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6900 3950
+NoConn ~ 6900 4250
+NoConn ~ 3100 3100
+$Comp
+L gps_node-rescue:Conn_Coaxial J?
+U 1 1 5C37B1F4
+P 4000 2600
+AR Path="/5C37B1F4" Ref="J?"  Part="1" 
+AR Path="/5C378859/5C37B1F4" Ref="J17"  Part="1" 
+F 0 "J17" H 4010 2720 50  0000 C CNN
+F 1 "u.FL connector" V 4115 2600 50  0000 C CNN
+F 2 "gps_node_components:CONN-RF-UFL" H 4000 2600 50  0001 C CNN
+F 3 "" H 4000 2600 50  0001 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2600 3850 2600
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C37B1FC
+P 4000 2800
+AR Path="/5C37B1FC" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C37B1FC" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 4000 2550 50  0001 C CNN
+F 1 "GND" H 4000 2650 50  0000 C CNN
+F 2 "" H 4000 2800 50  0001 C CNN
+F 3 "" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:+3V3-power #PWR?
+U 1 1 5C3814CC
+P 5850 6800
+AR Path="/5BFC4BE8/5C3814CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C3814CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C0A9442/5C3814CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3814CC" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 5850 6650 50  0001 C CNN
+F 1 "+3V3" H 5900 6950 50  0000 C CNN
+F 2 "" H 5850 6800 50  0001 C CNN
+F 3 "" H 5850 6800 50  0001 C CNN
+	1    5850 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 6600 0    50   Input ~ 0
+V_BATT
+Text GLabel 5450 6900 0    50   Input ~ 0
+V_3.3
+Text GLabel 5450 7050 0    50   Input ~ 0
+V_BAK
+Text GLabel 5450 6750 0    50   Input ~ 0
+V_BUS
+Text GLabel 5450 7200 0    50   Input ~ 0
+GND
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C3814D7
+P 5550 7300
+AR Path="/5BFC4BE8/5C3814D7" Ref="#PWR?"  Part="1" 
+AR Path="/5C3814D7" Ref="#PWR?"  Part="1" 
+AR Path="/5C0A9442/5C3814D7" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3814D7" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 5550 7050 50  0001 C CNN
+F 1 "GND" H 5550 7150 50  0000 C CNN
+F 2 "" H 5550 7300 50  0001 C CNN
+F 3 "" H 5550 7300 50  0001 C CNN
+	1    5550 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7200 5550 7200
+Wire Wire Line
+	5550 7200 5550 7300
+Text Label 5500 7050 0    60   ~ 0
+V_BAK
+$Comp
+L gps_node-rescue:VBUS-power #PWR?
+U 1 1 5C3814E0
+P 5700 6650
+AR Path="/5BFC4BE8/5C3814E0" Ref="#PWR?"  Part="1" 
+AR Path="/5C3814E0" Ref="#PWR?"  Part="1" 
+AR Path="/5C0A9442/5C3814E0" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3814E0" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 5700 6500 50  0001 C CNN
+F 1 "VBUS" H 5700 6800 50  0000 C CNN
+F 2 "" H 5700 6650 50  0001 C CNN
+F 3 "" H 5700 6650 50  0001 C CNN
+	1    5700 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:+BATT-power #PWR?
+U 1 1 5C3814E6
+P 5550 6500
+AR Path="/5BFC4BE8/5C3814E6" Ref="#PWR?"  Part="1" 
+AR Path="/5C3814E6" Ref="#PWR?"  Part="1" 
+AR Path="/5C0A9442/5C3814E6" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3814E6" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 5550 6350 50  0001 C CNN
+F 1 "+BATT" H 5550 6640 50  0000 C CNN
+F 2 "" H 5550 6500 50  0001 C CNN
+F 3 "" H 5550 6500 50  0001 C CNN
+	1    5550 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6900 5850 6900
+Wire Wire Line
+	5850 6900 5850 6800
+Wire Wire Line
+	5700 6650 5700 6750
+Wire Wire Line
+	5700 6750 5450 6750
+Wire Wire Line
+	5450 6600 5550 6600
+Wire Wire Line
+	5550 6600 5550 6500
+Wire Wire Line
+	5450 7050 5700 7050
+Text Notes 5050 6250 0    101  ~ 0
+Global power labels
+$Comp
+L gps_node-rescue:C-Device C5
+U 1 1 5C386246
+P 2000 1850
+F 0 "C5" H 2050 1950 50  0000 L CNN
+F 1 "10uF" H 2050 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2038 1700 50  0001 C CNN
+F 3 "~" H 2000 1850 50  0001 C CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1650 1150 1650
+Wire Wire Line
+	1150 1500 1150 1650
+Wire Wire Line
+	1650 1850 1650 2050
+$Comp
+L gps_node-rescue:C-Device C12
+U 1 1 5C393EFC
+P 2450 1850
+F 0 "C12" H 2500 1950 50  0000 L CNN
+F 1 "100nF" H 2500 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2488 1700 50  0001 C CNN
+F 3 "~" H 2450 1850 50  0001 C CNN
+	1    2450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:C-Device C23
+U 1 1 5C393F92
+P 2800 1850
+F 0 "C23" H 2850 1950 50  0000 L CNN
+F 1 "100nF" H 2850 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2838 1700 50  0001 C CNN
+F 3 "~" H 2800 1850 50  0001 C CNN
+	1    2800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:C-Device C24
+U 1 1 5C393FCC
+P 3150 1850
+F 0 "C24" H 3200 1950 50  0000 L CNN
+F 1 "100nF" H 3200 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3188 1700 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2050 2000 2050
+Wire Wire Line
+	3150 2050 3150 2000
+Connection ~ 1650 2050
+Wire Wire Line
+	1650 2050 1650 2100
+Wire Wire Line
+	2800 2000 2800 2050
+Connection ~ 2800 2050
+Wire Wire Line
+	2800 2050 3150 2050
+Wire Wire Line
+	2450 2000 2450 2050
+Connection ~ 2450 2050
+Wire Wire Line
+	2450 2050 2800 2050
+Wire Wire Line
+	2000 2000 2000 2050
+Connection ~ 2000 2050
+Wire Wire Line
+	2000 2050 2450 2050
+Wire Wire Line
+	1850 1650 2000 1650
+Wire Wire Line
+	2000 1650 2000 1700
+Wire Wire Line
+	2450 1650 2450 1700
+Wire Wire Line
+	2000 1650 2450 1650
+Connection ~ 2000 1650
+Wire Wire Line
+	2450 1650 2800 1650
+Wire Wire Line
+	2800 1650 2800 1700
+Connection ~ 2450 1650
+Wire Wire Line
+	2800 1650 3150 1650
+Wire Wire Line
+	3150 1650 3150 1700
+Connection ~ 2800 1650
+$Comp
+L gps_node-rescue:C_Feedthrough C?
+U 1 1 5C3A7280
+P 6950 1800
+AR Path="/5C3A7280" Ref="C?"  Part="1" 
+AR Path="/5C378859/5C3A7280" Ref="C1"  Part="1" 
+F 0 "C1" H 6950 2100 50  0000 C CNN
+F 1 "NFM21HC105R1C3D" H 6950 2025 50  0000 C CNN
+F 2 "gps_node_components:C_FEEDTHROUGH_0805" V 6950 1800 50  0001 C CNN
+F 3 "" V 6950 1800 50  0001 C CNN
+	1    6950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:+3V3-power #PWR?
+U 1 1 5C3A7287
+P 6450 1550
+AR Path="/5C3A7287" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3A7287" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 6450 1400 50  0001 C CNN
+F 1 "+3V3" V 6450 1750 50  0000 C CNN
+F 2 "" H 6450 1550 50  0001 C CNN
+F 3 "" H 6450 1550 50  0001 C CNN
+	1    6450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C3A728D
+P 6950 2150
+AR Path="/5C3A728D" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3A728D" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 6950 1900 50  0001 C CNN
+F 1 "GND" H 6950 2000 50  0000 C CNN
+F 2 "" H 6950 2150 50  0001 C CNN
+F 3 "" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:C-Device C3
+U 1 1 5C3A7293
+P 7300 1900
+F 0 "C3" H 7350 2000 50  0000 L CNN
+F 1 "10uF" H 7350 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7338 1750 50  0001 C CNN
+F 3 "~" H 7300 1900 50  0001 C CNN
+	1    7300 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1700 6450 1700
+Wire Wire Line
+	6450 1550 6450 1700
+Wire Wire Line
+	6950 1900 6950 2100
+$Comp
+L gps_node-rescue:C-Device C13
+U 1 1 5C3A729D
+P 7750 1900
+F 0 "C13" H 7800 2000 50  0000 L CNN
+F 1 "100nF" H 7800 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7788 1750 50  0001 C CNN
+F 3 "~" H 7750 1900 50  0001 C CNN
+	1    7750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L gps_node-rescue:C-Device C25
+U 1 1 5C3A72A4
+P 8100 1900
+F 0 "C25" H 8150 2000 50  0000 L CNN
+F 1 "100nF" H 8150 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8138 1750 50  0001 C CNN
+F 3 "~" H 8100 1900 50  0001 C CNN
+	1    8100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2100 7300 2100
+Connection ~ 6950 2100
+Wire Wire Line
+	6950 2100 6950 2150
+Wire Wire Line
+	8100 2050 8100 2100
+Wire Wire Line
+	7750 2050 7750 2100
+Connection ~ 7750 2100
+Wire Wire Line
+	7750 2100 8100 2100
+Wire Wire Line
+	7300 2050 7300 2100
+Connection ~ 7300 2100
+Wire Wire Line
+	7300 2100 7750 2100
+Wire Wire Line
+	7150 1700 7300 1700
+Wire Wire Line
+	7300 1700 7300 1750
+Wire Wire Line
+	7750 1700 7750 1750
+Wire Wire Line
+	7300 1700 7750 1700
+Connection ~ 7300 1700
+Wire Wire Line
+	7750 1700 8100 1700
+Wire Wire Line
+	8100 1700 8100 1750
+Connection ~ 7750 1700
+Connection ~ 8100 1700
+Wire Wire Line
+	8100 1700 8700 1700
+Text Label 8350 1700 0    50   ~ 0
+GPS_POWER
+Text Label 3300 1650 0    50   ~ 0
+RN_POWER
+Text Label 6800 3750 2    50   ~ 0
+GPS_POWER
+Wire Wire Line
+	6450 3750 6900 3750
+Text Label 6800 4550 2    50   ~ 0
+GPS_POWER
+Wire Wire Line
+	6450 4550 6900 4550
+Wire Wire Line
+	6450 4450 6900 4450
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C3D3B3F
+P 6700 4150
+AR Path="/5C3D3B3F" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C3D3B3F" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR0173" H 6700 3900 50  0001 C CNN
+F 1 "GND" H 6700 4000 50  0000 C CNN
+F 2 "" H 6700 4150 50  0001 C CNN
+F 3 "" H 6700 4150 50  0001 C CNN
+	1    6700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5000 8600 4950
+Wire Wire Line
+	8600 4150 8400 4150
+Wire Wire Line
+	8400 4250 8600 4250
+Connection ~ 8600 4250
+Wire Wire Line
+	8600 4250 8600 4150
+Wire Wire Line
+	8400 4450 8600 4450
+Connection ~ 8600 4450
+Wire Wire Line
+	8600 4450 8600 4250
+Wire Wire Line
+	8600 4550 8400 4550
+Connection ~ 8600 4550
+Wire Wire Line
+	8600 4550 8600 4450
+Wire Wire Line
+	8400 4850 8600 4850
+Connection ~ 8600 4850
+Wire Wire Line
+	8600 4850 8600 4550
+Wire Wire Line
+	8600 4950 8400 4950
+Connection ~ 8600 4950
+Wire Wire Line
+	8600 4950 8600 4850
+Wire Wire Line
+	6900 4150 6700 4150
+Wire Wire Line
+	6700 4050 6700 4150
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4050 6900 4050
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C40A6F7
+P 6700 5000
+AR Path="/5C40A6F7" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C40A6F7" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0174" H 6700 4750 50  0001 C CNN
+F 1 "GND" H 6700 4850 50  0000 C CNN
+F 2 "" H 6700 5000 50  0001 C CNN
+F 3 "" H 6700 5000 50  0001 C CNN
+	1    6700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4650 6900 4650
+Wire Wire Line
+	6700 4650 6700 4750
+Wire Wire Line
+	6900 4750 6700 4750
+Connection ~ 6700 4750
+Wire Wire Line
+	6700 4750 6700 4850
+Wire Wire Line
+	6900 4850 6700 4850
+Connection ~ 6700 4850
+Wire Wire Line
+	6700 4850 6700 4950
+Wire Wire Line
+	6700 4950 6900 4950
+Connection ~ 6700 4950
+Wire Wire Line
+	6700 4950 6700 5000
+$Comp
+L gps_node-rescue:R-Device R3
+U 1 1 5C41C2A5
+P 8650 3850
+F 0 "R3" V 8750 4000 50  0000 C CNN
+F 1 "220" V 8750 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8580 3850 50  0001 C CNN
+F 3 "~" H 8650 3850 50  0001 C CNN
+	1    8650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L gps_node-rescue:R-Device R2
+U 1 1 5C41C3FB
+P 8650 3750
+F 0 "R2" V 8750 3900 50  0000 C CNN
+F 1 "220" V 8750 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8580 3750 50  0001 C CNN
+F 3 "~" H 8650 3750 50  0001 C CNN
+	1    8650 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3750 8500 3750
+Wire Wire Line
+	8400 3850 8500 3850
+Text HLabel 8900 3750 2    50   Input ~ 0
+UART_GPS_IN
+Text HLabel 8900 3850 2    50   Output ~ 0
+UART_GPS_OUT
+Wire Wire Line
+	8900 3750 8800 3750
+Wire Wire Line
+	8800 3850 8900 3850
+Text HLabel 4300 4800 2    50   Input ~ 0
+UART_RN_IN
+Text HLabel 4300 4900 2    50   Output ~ 0
+UART_RN_OUT
+Wire Wire Line
+	3150 1650 3850 1650
+Connection ~ 3150 1650
+Text Label 4300 4300 0    50   ~ 0
+RN_POWER
+Wire Wire Line
+	4150 4300 4550 4300
+Wire Wire Line
+	4250 5500 4250 5400
+Wire Wire Line
+	4250 5400 4150 5400
+$Comp
+L gps_node-rescue:GND-power #PWR?
+U 1 1 5C435A06
+P 2250 5500
+AR Path="/5C435A06" Ref="#PWR?"  Part="1" 
+AR Path="/5C378859/5C435A06" Ref="#PWR0175"  Part="1" 
+F 0 "#PWR0175" H 2250 5250 50  0001 C CNN
+F 1 "GND" V 2250 5300 50  0000 C CNN
+F 2 "" H 2250 5500 50  0001 C CNN
+F 3 "" H 2250 5500 50  0001 C CNN
+	1    2250 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5500 2250 5400
+Wire Wire Line
+	2250 5400 2350 5400
+Wire Wire Line
+	2350 4800 2250 4800
+Wire Wire Line
+	2250 4800 2250 5400
+Connection ~ 2250 5400
+Wire Wire Line
+	2350 4000 2250 4000
+Wire Wire Line
+	2250 4000 2250 4800
+Connection ~ 2250 4800
+Wire Wire Line
+	2350 4100 1750 4100
+Text Label 2150 4100 2    50   ~ 0
+RN_POWER
+Text Label 1450 3350 2    50   ~ 0
+RN_POWER
+Wire Wire Line
+	1500 3500 1500 3350
+Wire Wire Line
+	1500 3350 1200 3350
+$Comp
+L gps_node-rescue:R-Device R10
+U 1 1 5C4434B7
+P 1500 3650
+F 0 "R10" H 1570 3696 50  0000 L CNN
+F 1 "10k" H 1570 3605 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 1430 3650 50  0001 C CNN
+F 3 "~" H 1500 3650 50  0001 C CNN
+	1    1500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3800 1500 3900
+$Comp
+L gps_node-rescue:Conn_01x06 J?
+U 1 1 5C4461C8
+P 1450 6400
+AR Path="/5C4461C8" Ref="J?"  Part="1" 
+AR Path="/5C378859/5C4461C8" Ref="J16"  Part="1" 
+F 0 "J16" H 1450 6700 50  0000 C CNN
+F 1 "FW_UPDATE" H 1450 6000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1450 6400 50  0001 C CNN
+F 3 "" H 1450 6400 50  0001 C CNN
+	1    1450 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6200 2100 6200
+Wire Wire Line
+	1650 6300 2100 6300
+Wire Wire Line
+	1650 6400 2400 6400
+Wire Wire Line
+	2400 6400 2400 6500
+Wire Wire Line
+	1650 6500 2100 6500
+Wire Wire Line
+	1650 6600 2100 6600
+NoConn ~ 1650 6700
+Text Label 1700 6300 0    50   ~ 0
+RN_POWER
+Text Label 2150 3900 2    50   ~ 0
+RN_RESET
+Text Label 1700 6600 0    50   ~ 0
+RN_PGC
+Text Label 1700 6500 0    50   ~ 0
+RN_PGD
+Text Label 2150 3700 2    50   ~ 0
+RN_PGC
+Text Label 2150 3800 2    50   ~ 0
+RN_PGD
+Wire Wire Line
+	1750 3800 2350 3800
+Wire Wire Line
+	1750 3700 2350 3700
+Wire Wire Line
+	1500 3900 2350 3900
+Text HLabel 1400 3900 0    50   Input ~ 0
+RN_RESET
+Wire Wire Line
+	1500 3900 1400 3900
+Connection ~ 1500 3900
+Text Notes 1150 1050 0    101  ~ 0
+RN Module
+Text Notes 6600 1050 0    101  ~ 0
+GPS Module
+Text Label 1700 6200 0    50   ~ 0
+RN_RESET
+Text Label 6800 4450 2    60   ~ 0
+V_BAK
+$EndSCHEMATC

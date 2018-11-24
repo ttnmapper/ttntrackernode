@@ -1,0 +1,139 @@
+Source:,/home/kolijn/Temp/ttntrackernode/schematic/v3/gps_node.sch,,,,,,,,,,,
+Date:,Sun 11 Nov 2018 14:27:34 SAST,,,,,,,,,,,
+Tool:,Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1,,,,,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,
+Component Count:,73,,,,,,,,,,,
+,,,,,,,,,,,,
+Individual Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,,,,,,,
+,,C1,NFM21HC105R1C3D,gps_node-rescue:C_Feedthrough,gps_node_components:C_FEEDTHROUGH_0805,,,,,,,
+,,C2,10uF,gps_node-rescue:C,Capacitors_SMD:C_0805,,,,,,,
+,,C3,10uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C4,100nF,gps_node-rescue:C,Capacitors_SMD:C_0805,,,,,,,
+,,C5,10uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C6,10uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C7,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C8,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C9,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C10,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C11,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C12,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C13,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C14,22pF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C15,22pF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C16,1uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C17,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C18,10uF,gps_node-rescue:C_Small,Capacitors_SMD:C_0805,,,,,,,
+,,C19,NFM21HC105R1C3D,gps_node-rescue:C_Feedthrough,gps_node_components:C_FEEDTHROUGH_0805,,,,,,,
+,,C20,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C21,100nF,gps_node-rescue:C_Small,Capacitors_SMD:C_0805,,,,,,,
+,,C22,100nF,gps_node-rescue:C,Capacitors_SMD:C_0805,,,,,,,
+,,C23,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C24,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C25,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C26,10uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,C27,100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,,,,,,
+,,D1,BAS K73,gps_node-rescue:D_Small,Diodes_SMD:D_SOT-23_ANK,,,,,,,
+,,D2,LED_Dual_CCAA,gps_node-rescue:LED_Dual_CCAA-led_dual_ccaa,dual_led:LED_DUAL_1206,,,,,,,
+,,D3,LED,gps_node-rescue:LED-Device,LEDs:LED_0805_HandSoldering,,,,,,,
+,,D4,LED,gps_node-rescue:LED-Device,LEDs:LED_0805_HandSoldering,,,,,,,
+,,F1,Polyfuse,gps_node-rescue:Polyfuse,gps_node_components:bourns polyfuse,,,,,,,
+,,IC1,MCP73831/2,gps_node-rescue:MCP73831_2,TO_SOT_Packages_SMD:SOT-23-5,,,,,,,
+,,J1,Mounting Hole,gps_node-rescue:Conn_01x01,Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad,,,,,,,
+,,J2,Mounting Hole,gps_node-rescue:Conn_01x01,Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad,,,,,,,
+,,J3,Mounting Hole,gps_node-rescue:Conn_01x01,Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad,,,,,,,
+,,J4,Mounting Hole,gps_node-rescue:Conn_01x01,Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad,,,,,,,
+,,J5,TEST Vbatt,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,
+,,J6,USB_OTG,gps_node-rescue:USB_OTG,gps_node_components:Molex_Microusb,,,,,,,
+,,J7,Test 3.3v,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,
+,,J8,Test Gnd,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,
+,,J9,Test V_bak,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,,,,,,,
+,,J11,AVR ICSP,gps_node-rescue:Conn_02x03_Odd_Even,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm,,,,,,,
+,,J12,UART RF,gps_node-rescue:Conn_01x03,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,,,,,,,
+,,J13,LIPO_BAT,gps_node-rescue:Conn_01x02,Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight,,,,,,,
+,,J15,UART GPS,gps_node-rescue:Conn_01x03,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,,,,,,,
+,,J16,FW_UPDATE,gps_node-rescue:Conn_01x06,Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm,,,,,,,
+,,J17,u.FL connector,gps_node-rescue:Conn_Coaxial,gps_node_components:CONN-RF-UFL,,,,,,,
+,,R1,10k,gps_node-rescue:R_Small,Resistors_SMD:R_0805,,,,,,,
+,,R2,220,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R3,220,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R4,22,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R5,22,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R6,10k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R10,10k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R11,10k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R12,1k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R13,1k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R14,2k,gps_node-rescue:R_Small,Resistors_SMD:R_0805,,,,,,,
+,,R15,100k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R16,100k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,,,,,,
+,,R17,470,gps_node-rescue:R,Resistors_SMD:R_0805,,,,,,,
+,,R18,470,gps_node-rescue:R,Resistors_SMD:R_0805,,,,,,,
+,,SW1,RS stock no. 448-0747,gps_node-rescue:SW_SPDT,EG1224:EG1224_Switch,,,,,,,
+,,SW2,SW_Push,gps_node-rescue:SW_Push-Switch,Buttons_Switches_SMD:SW_SPST_PTS645,,,,,,,
+,,SW3,SW_Push,gps_node-rescue:SW_Push-Switch,Buttons_Switches_SMD:SW_SPST_PTS645,,,,,,,
+,,U1,TLV71333PDBV,gps_node-rescue:TLV71333PDBV,TO_SOT_Packages_SMD:SOT-23-5,,,,,,,
+,,U2,ublox-cam-m8q-0,drawn_by_jpmeijers:ublox-cam-m8q-0,drawn_by_jpmeijers:ublox-cam-m8q-0,,,,,,,
+,,U3,TLV71333PDBV,gps_node-rescue:TLV71333PDBV,TO_SOT_Packages_SMD:SOT-23-5,,,,,,,
+,,U4,ATMEGA32U4-AU,gps_node-rescue:ATMEGA32U4-AU,Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm,,,,,,,
+,,U5,RN2483,drawn_by_jpmeijers:RN2483,drawn_by_jpmeijers:RN2483,,,,,,,
+,,U6,LIS3DH,gps_node-rescue:LIS3DH-STM-LISxxx,lga_16:LGA16-pitch0.5-3mmx3mm,,,,,,,
+,,Y1,16MHz,gps_node-rescue:Crystal,gps_node_components:QC3CA_16MHz,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,Exchange:,14.37,,,
+Collated Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Description,Digikey,Dollar,RS,Rand,,
+1,2,"C1, C19",NFM21HC105R1C3D,gps_node-rescue:C_Feedthrough,gps_node_components:C_FEEDTHROUGH_0805,,490-11839-1-ND,0.47,,,,R 13.51
+2,1,C2,10uF,gps_node-rescue:C,Capacitors_SMD:C_0805,,1276-2399-1-ND ,0.25,,,,R 3.59
+3,4,"C3, C5, C6, C26",10uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,1276-2399-1-ND ,0.25,,,,R 14.37
+4,2,"C4, C22",100nF,gps_node-rescue:C,Capacitors_SMD:C_0805,,311-1361-1-ND ,0.16,,,,R 4.60
+5,13,"C7, C8, C9, C10, C11, C12, C13, C17, C20, C23, C24, C25, C27",100nF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,311-1361-1-ND ,0.16,,,,R 29.89
+6,2,"C14, C15",22pF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,399-8036-1-ND ,0.14,,,,R 4.02
+7,1,C16,1uF,gps_node-rescue:C-Device,Capacitors_SMD:C_0805,,399-1284-1-ND,0.17,,,,R 2.44
+8,1,C18,10uF,gps_node-rescue:C_Small,Capacitors_SMD:C_0805,,1276-2399-1-ND ,0.25,,,,R 3.59
+9,1,C21,100nF,gps_node-rescue:C_Small,Capacitors_SMD:C_0805,,311-1361-1-ND ,0.16,,,,R 2.30
+10,1,D1,BAS K73,gps_node-rescue:D_Small,Diodes_SMD:D_SOT-23_ANK,,,, 738-4822,0.56,,R 0.56
+11,1,D2,LED_Dual_CCAA,gps_node-rescue:LED_Dual_CCAA-led_dual_ccaa,dual_led:LED_DUAL_1206,,492-1245-1-ND,0.68,,,,R 9.77
+12,2,D3,LED,gps_node-rescue:LED-Device,LEDs:LED_0805_HandSoldering,,475-1278-1-ND ,0.38,,,,R 10.92
+,,D4,LED,gps_node-rescue:LED-Device,LEDs:LED_0805_HandSoldering,,475-1410-1-ND ,0.36,,,,R 0.00
+13,1,F1,Polyfuse,gps_node-rescue:Polyfuse,gps_node_components:bourns polyfuse,,,, 647-8184,6.833,,R 6.83
+14,1,IC1,MCP73831/2,gps_node-rescue:MCP73831_2,TO_SOT_Packages_SMD:SOT-23-5,,MCP73831T-2ACI/OTCT-ND ,0.58,,,,R 8.33
+15,4,"J1, J2, J3, J4",Mounting Hole,gps_node-rescue:Conn_01x01,Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad,NO Populate,,,,,,R 0.00
+16,1,J5,TEST Vbatt,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,NO Populate,,,,,,R 0.00
+17,1,J6,USB_OTG,gps_node-rescue:USB_OTG,gps_node_components:Molex_Microusb,,WM1399CT-ND ,0.97,,,,R 13.94
+18,1,J7,Test 3.3v,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,NO Populate,,,,,,R 0.00
+19,1,J8,Test Gnd,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,NO Populate,,,,,,R 0.00
+20,1,J9,Test V_bak,gps_node-rescue:Conn_01x01,Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm,NO Populate,,,,,,R 0.00
+21,1,J11,AVR ICSP,gps_node-rescue:Conn_02x03_Odd_Even,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm,NO Populate,,,,,,R 0.00
+22,1,J12,UART RF,gps_node-rescue:Conn_01x03,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,NO Populate,,,,,,R 0.00
+23,1,J13,LIPO_BAT,gps_node-rescue:Conn_01x02,Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight,,455-1704-ND,0.17,,,,R 2.44
+24,1,J15,UART GPS,gps_node-rescue:Conn_01x03,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,NO Populate,,,,,,R 0.00
+25,1,J16,FW_UPDATE,gps_node-rescue:Conn_01x06,Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm,NO Populate,,,,,,R 0.00
+26,1,J17,u.FL connector,gps_node-rescue:Conn_Coaxial,gps_node_components:CONN-RF-UFL,,,, 557-981,10.932,,R 10.93
+27,1,R1,10k,gps_node-rescue:R_Small,Resistors_SMD:R_0805,,311-10KARCT-ND,0.1,,,,R 1.44
+28,2,"R2, R3",220,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,311-220ARCT-ND ,0.1,,,,R 2.87
+29,2,"R4, R5",22,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,311-22.0CRCT-ND,0.1,,,,R 2.87
+30,3,"R6, R10, R11",10k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,311-10KARCT-ND,0.1,,,,R 4.31
+31,2,"R12, R13",1k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,311-1.0KARCT-ND,0.1,,,,R 2.87
+32,1,R14,2k,gps_node-rescue:R_Small,Resistors_SMD:R_0805,,311-2.0KARCT-ND,0.1,,,,R 1.44
+33,2,"R15, R16",100k,gps_node-rescue:R-Device,Resistors_SMD:R_0805,,311-100KCRCT-ND ,0.1,,,,R 2.87
+34,2,"R17, R18",470,gps_node-rescue:R,Resistors_SMD:R_0805,,311-470ARCT-ND ,0.1,,,,R 2.87
+35,1,SW1,RS stock no. 448-0747,gps_node-rescue:SW_SPDT,EG1224:EG1224_Switch,,EG2585-ND,0.77,,,,R 11.06
+36,2,"SW2, SW3",SW_Push,gps_node-rescue:SW_Push-Switch,Buttons_Switches_SMD:SW_SPST_PTS645,NO Populate,,,,,,R 0.00
+37,2,"U1, U3",TLV71333PDBV,gps_node-rescue:TLV71333PDBV,TO_SOT_Packages_SMD:SOT-23-5,,296-35591-1-ND,0.42,,,,R 12.07
+38,1,U2,ublox-cam-m8q-0,drawn_by_jpmeijers:ublox-cam-m8q-0,drawn_by_jpmeijers:ublox-cam-m8q-0,,672-1013-1-ND,35.15,,,,R 505.11
+39,1,U4,ATMEGA32U4-AU,gps_node-rescue:ATMEGA32U4-AU,Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm,,ATMEGA32U4-AU-ND,4.12,,,,R 59.20
+40,1,U5,RN2483,drawn_by_jpmeijers:RN2483,drawn_by_jpmeijers:RN2483,,RN2483A-I/RM104-ND,13.18,,,,R 189.40
+41,1,U6,LIS3DH,gps_node-rescue:LIS3DH-STM-LISxxx,lga_16:LGA16-pitch0.5-3mmx3mm,,497-10613-1-ND ,0.79,,,,R 11.35
+42,1,Y1,16MHz,gps_node-rescue:Crystal,gps_node_components:QC3CA_16MHz,8MHz,644-1178-1-ND,1.03,,,,R 14.80
+,,,,,,,,,,,,R 0.00
+43,4,Hex Standoffs M3 Nylon 5mm,,,,,RPC1483-ND,0.65,,,,R 37.36
+44,4,Mach Screw Pan slotted M3x0.5,,,,,36-29341-ND,0.2,,,,R 11.50
+45,1,Antenna,,https://za.rs-online.com/web/p/telemetry-antennas/7934363/,,,,,,98.18,,R 98.18
+46,1,SMA Cable & Antenna,,https://www.robotics.org.za/UFL-SMA-868MHZ,,,,,,60,,R 60.00
+47,1,Battery,,https://www.robotics.org.za/503562?search=battery,,,,,,165,,R 165.00
+,,,,,,,,,,,,
+,,,,,,,,,,,,"R 1,338.64"
