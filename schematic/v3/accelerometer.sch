@@ -262,7 +262,7 @@ Connection ~ 3900 3750
 Wire Wire Line
 	3900 3750 4200 3750
 Text Label 4000 3350 0    50   ~ 0
-Vcc_accel
+ACCEL_POWER
 Text Label 6150 2750 0    50   ~ 0
-Vcc_accel
+ACCEL_POWER
 $EndSCHEMATC
