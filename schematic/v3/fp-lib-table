@@ -1,4 +1,8 @@
 (fp_lib_table
   (lib (name gps_node_components)(type KiCad)(uri "$(KIPRJMOD)/libraries/gps_node_components.pretty")(options "")(descr ""))
   (lib (name drawn_by_jpmeijers)(type KiCad)(uri "$(KIPRJMOD)/libraries/drawn_by_jpmeijers.pretty")(options "")(descr ""))
+  (lib (name dual_led)(type KiCad)(uri ${KIPRJMOD}/libraries/dual_led.pretty)(options "")(descr ""))
+  (lib (name EG1224)(type KiCad)(uri ${KIPRJMOD}/libraries/EG1224.pretty)(options "")(descr ""))
+  (lib (name lga_16)(type KiCad)(uri ${KIPRJMOD}/libraries/lga_16.pretty)(options "")(descr ""))
+  (lib (name test_pad)(type KiCad)(uri ${KIPRJMOD}/libraries/test_pad.pretty)(options "")(descr ""))
 )
