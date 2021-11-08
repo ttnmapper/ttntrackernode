@@ -5,7 +5,7 @@ The TTN Tracker is a [Things Network](https://www.thethingsnetwork.org/) node wi
 Thisrepository contains the schematics used to create the device as well as any additional files and the firmware that was loaded on the device.
 
 ### Schematics
-The schematics were created using [KiCad 4.0.7](http://kicad-pcb.org/)
+The schematics were created using [KiCad 4.0.7](http://kicad.org/)
 
 # Datasheets
 
